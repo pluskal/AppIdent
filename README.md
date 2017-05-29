@@ -1,2 +1,46 @@
 # AppIdent
 Enhance Statistical Protocol Identification, Bayesian network and Random forests classification of application protocols.
+
+# Basic Information
+* [Configuration of tests](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/testedCombinations.pdf)
+* [All features](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/allFeatures.pdf)
+* [Capture Statistics](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/captureStats.pdf)
+* [Features Selection](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/featureSelection.pdf)
+
+# Training to Verification Ratio
+* [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/pat2v.pdf)
+* [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/appTagsPAt2v.pdf)
+* [Port base](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/appTagsPBt2v.pdf)
+* [Port base AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/testedCombinations.pdf)
+
+# Result Comparison
+* [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/comparisonPA.pdf)
+* [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/comparisonPAAppTags.pdf)
+
+# Bayesian Classifier
+## Training to vrification ration 0.1
+* [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPA01.pdf)
+* [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPA01AppTags.pdf)
+
+## Training to vrification ration 0.2
+* [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPA02.pdf)
+* [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPA02AppTags.pdf)
+
+## Training to vrification ration 0.5
+* [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPA05.pdf)
+* [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPA05AppTags.pdf)
+
+# Enhance Statistical Protocol Identification - ESPI
+* [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/espiPA.pdf)
+* [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/espiPAAppTags.pdf)
+* [Port base](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/espiPB.pdf)
+* [Port base AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/espiPBAppTags.pdf)
+
+# Random Forests
+## Training to vrification ration 0.1
+* [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/randomForestsPA01.pdf)
+* [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/randomForestsPA01AppTags.pdf)
+
+## Training to vrification ration 0.2
+* [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/randomForestsPA02.pdf)
+* [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/randomForestsPA02AppTags.pdf)

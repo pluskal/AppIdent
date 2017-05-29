@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "trees",
+    "Value": 8.0
+  },
+  {
+    "Name": "sampleRatio",
+    "Value": 0.7
+  },
+  {
+    "Name": "join",
+    "Value": 100.0
+  }
+]

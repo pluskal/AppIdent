@@ -1,0 +1,16 @@
+{
+  "RunningTime": "00:59:22.5105822",
+  "TestName": "EPI_PortBased_0,1_2_2_30",
+  "DateTime": "2017-05-28T11:30:38.0271834+02:00",
+  "DateTimeString": "2017-05-28-11-30-38-dop.",
+  "Labels": null,
+  "MinFlows": 30,
+  "FeatureSelectionTreshold": 2.0,
+  "CrossValidationFolds": 2,
+  "TrainingToVerificationRation": 0.1,
+  "IsEpi": true,
+  "IsRandomForest": false,
+  "IsUseFullName": false,
+  "IsBayessian": false,
+  "BestParametersFilePath": "C:\\Users\\root\\Netfox\\AppIdent\\2017-05-28-11-30-38-dop._EPI_PortBased_0,1_2_2_30_bestParameters.bin"
+}

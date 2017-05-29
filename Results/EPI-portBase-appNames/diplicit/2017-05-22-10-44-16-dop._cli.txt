@@ -1,0 +1,10 @@
+{
+  "TestName": "cli",
+  "DateTime": "2017-05-22T10:44:16.3716372+02:00",
+  "DateTimeString": "2017-05-22-10-44-16-dop.",
+  "Labels": null,
+  "MinFlows": 30,
+  "FeatureSelectionTreshold": 2.0,
+  "CrossValidationFolds": 2,
+  "TrainingToVerificationRation": 0.9
+}

@@ -1,0 +1,522 @@
+tcp_https
+TP:95199, FP:45, FN:48
+FPs: tcp_http: 26, tcp_jabberssl: 10, tcp_pop3tlsssl: 1, tcp_smtptlsssl: 5, tcp_ssh: 1, tcp_teamviewer: 2, 
+FNs: tcp_http: 18, tcp_smtptlsssl: 9, udp_netbios: 2, tcp_teamviewer: 5, tcp_ssh: 2, tcp_pop3tlsssl: 5, 139_tcp: 3, 45776_tcp: 1, 3702_udp: 1, udp_dhcpc: 1, tcp_dns: 1, 
+Precision: 0,999527529293184
+Recall: 0,999496047119594
+F-Measure: 0,999511787958486
+
+
+udp_llmnr
+TP:35696, FP:8, FN:0
+FPs: 51654_udp: 2, udp_netbios: 4, udp_onlinegames: 1, udp_stun: 1, 
+FNs: 
+Precision: 0,999775935469415
+Recall: 1
+F-Measure: 0,999887955182073
+
+
+udp_dns
+TP:35544, FP:27, FN:38
+FPs: 4070_tcp: 2, 43265_udp: 1, 50321_udp: 1, 51654_udp: 2, 5353_udp: 2, tcp_http: 1, udp_https: 3, udp_onlinegames: 3, udp_p2pbittorrent: 4, udp_spotify: 2, udp_ssdp: 5, udp_stun: 1, 
+FNs: udp_netbios: 28, 40028_udp: 6, 51654_udp: 1, 40020_udp: 1, udp_ssdp: 1, udp_teamviewer: 1, 
+Precision: 0,999240954710298
+Recall: 0,998932044292058
+F-Measure: 0,999086475622953
+
+
+tcp_http
+TP:24425, FP:46, FN:62
+FPs: 4070_tcp: 4, tcp_https: 18, tcp_icslap: 22, tcp_ssh: 2, 
+FNs: tcp_icslap: 35, tcp_https: 26, udp_dns: 1, 
+Precision: 0,99812022393854
+Recall: 0,997468044268387
+F-Measure: 0,997794027533805
+
+
+udp_ssdp
+TP:9768, FP:1, FN:8
+FPs: udp_dns: 1, 
+FNs: udp_p2pbittorrent: 3, udp_dns: 5, 
+Precision: 0,999897635377214
+Recall: 0,999181669394435
+F-Measure: 0,999539524174981
+
+
+udp_onlinegames
+TP:3839, FP:30, FN:13
+FPs: 50321_udp: 1, udp_p2pbittorrent: 29, 
+FNs: udp_dns: 3, 8621_udp: 1, 40003_udp: 2, 1024_udp: 1, udp_llmnr: 1, 3800_udp: 1, udp_p2pbittorrent: 2, 50321_udp: 2, 
+Precision: 0,992246058413027
+Recall: 0,9966251298027
+F-Measure: 0,994430773215905
+
+
+tcp_icslap
+TP:1637, FP:35, FN:22
+FPs: tcp_http: 35, 
+FNs: tcp_http: 22, 
+Precision: 0,979066985645933
+Recall: 0,986738999397227
+F-Measure: 0,982888021615131
+
+
+udp_https
+TP:1483, FP:2, FN:21
+FPs: 40020_udp: 1, udp_rtp: 1, 
+FNs: udp_p2pbittorrent: 12, 40018_udp: 3, udp_dns: 3, 40027_udp: 1, 40005_udp: 1, 47993_udp: 1, 
+Precision: 0,998653198653199
+Recall: 0,986037234042553
+F-Measure: 0,992305118768819
+
+
+udp_p2pbittorrent
+TP:1475, FP:194, FN:374
+FPs: 1024_udp: 4, 11888_udp: 3, 3800_udp: 13, 40003_udp: 1, 49001_udp: 28, 50321_udp: 68, 51654_udp: 5, 6992_udp: 1, 8621_udp: 21, 8999_udp: 30, udp_https: 12, udp_onlinegames: 2, udp_rtp: 3, udp_ssdp: 3, 
+FNs: 8621_udp: 33, 6992_udp: 65, 1024_udp: 53, udp_dns: 4, 50321_udp: 50, 11888_udp: 34, 40003_udp: 15, udp_onlinegames: 29, 8999_udp: 23, 3800_udp: 36, 49001_udp: 25, 51654_udp: 2, 40028_udp: 4, 40024_udp: 1, 
+Precision: 0,883762732174955
+Recall: 0,797728501892915
+F-Measure: 0,838544627629335
+
+
+51654_udp
+TP:1233, FP:23, FN:22
+FPs: 43265_udp: 12, 47993_udp: 5, 49001_udp: 3, udp_dns: 1, udp_p2pbittorrent: 2, 
+FNs: udp_p2pbittorrent: 5, 49001_udp: 4, udp_llmnr: 2, udp_netbios: 2, 43265_udp: 2, udp_dns: 2, 11888_udp: 3, udp_spotify: 2, 
+Precision: 0,981687898089172
+Recall: 0,982470119521912
+F-Measure: 0,982078853046595
+
+
+udp_netbiosdgm
+TP:434, FP:0, FN:0
+FPs: 
+FNs: 
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+
+udp_dhcps
+TP:369, FP:2, FN:3
+FPs: udp_dhcpc: 2, 
+FNs: udp_dhcpc: 3, 
+Precision: 0,994609164420485
+Recall: 0,991935483870968
+F-Measure: 0,993270524899058
+
+
+udp_netbios
+TP:367, FP:50, FN:4
+FPs: 51654_udp: 2, tcp_https: 2, udp_dhcpv6c: 1, udp_dns: 28, udp_rtp: 17, 
+FNs: udp_llmnr: 4, 
+Precision: 0,880095923261391
+Recall: 0,98921832884097
+F-Measure: 0,931472081218274
+
+
+tcp_teamviewer
+TP:250, FP:5, FN:8
+FPs: tcp_https: 5, 
+FNs: tcp_https: 2, tcp_dns: 5, 139_tcp: 1, 
+Precision: 0,980392156862745
+Recall: 0,968992248062015
+F-Measure: 0,974658869395711
+
+
+udp_stun
+TP:220, FP:0, FN:2
+FPs: 
+FNs: udp_dns: 1, udp_llmnr: 1, 
+Precision: 1
+Recall: 0,990990990990991
+F-Measure: 0,995475113122172
+
+
+3702_udp
+TP:217, FP:5, FN:0
+FPs: 4070_tcp: 2, tcp_https: 1, tcp_ssh: 2, 
+FNs: 
+Precision: 0,977477477477477
+Recall: 1
+F-Measure: 0,988610478359909
+
+
+5353_udp
+TP:211, FP:0, FN:4
+FPs: 
+FNs: udp_dns: 2, udp_dhcpv6c: 2, 
+Precision: 1
+Recall: 0,981395348837209
+F-Measure: 0,990610328638498
+
+
+139_tcp
+TP:204, FP:5, FN:0
+FPs: tcp_https: 3, tcp_pop3tlsssl: 1, tcp_teamviewer: 1, 
+FNs: 
+Precision: 0,976076555023923
+Recall: 1
+F-Measure: 0,987893462469734
+
+
+tcp_pop3tlsssl
+TP:183, FP:8, FN:2
+FPs: tcp_https: 5, tcp_smtptlsssl: 3, 
+FNs: tcp_https: 1, 139_tcp: 1, 
+Precision: 0,958115183246073
+Recall: 0,989189189189189
+F-Measure: 0,973404255319149
+
+
+udp_natpmp
+TP:168, FP:0, FN:0
+FPs: 
+FNs: 
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+
+udp_spotify
+TP:163, FP:2, FN:2
+FPs: 51654_udp: 2, 
+FNs: udp_dns: 2, 
+Precision: 0,987878787878788
+Recall: 0,987878787878788
+F-Measure: 0,987878787878788
+
+
+4070_tcp
+TP:150, FP:0, FN:16
+FPs: 
+FNs: udp_dns: 2, 40029_tcp: 3, 3702_udp: 2, tcp_http: 4, tcp_jabber: 4, 40028_udp: 1, 
+Precision: 1
+Recall: 0,903614457831325
+F-Measure: 0,949367088607595
+
+
+tcp_jabberssl
+TP:136, FP:1, FN:13
+FPs: tcp_ssh: 1, 
+FNs: tcp_https: 10, udp_rtp: 1, 12350_tcp: 2, 
+Precision: 0,992700729927007
+Recall: 0,912751677852349
+F-Measure: 0,951048951048951
+
+
+udp_rtp
+TP:94, FP:5, FN:24
+FPs: 43265_udp: 4, tcp_jabberssl: 1, 
+FNs: udp_netbios: 17, udp_p2pbittorrent: 3, 50321_udp: 1, udp_https: 1, 8621_udp: 1, 40003_udp: 1, 
+Precision: 0,94949494949495
+Recall: 0,796610169491525
+F-Measure: 0,866359447004608
+
+
+udp_teamviewer
+TP:82, FP:1, FN:0
+FPs: udp_dns: 1, 
+FNs: 
+Precision: 0,987951807228916
+Recall: 1
+F-Measure: 0,993939393939394
+
+
+tcp_ssh
+TP:62, FP:2, FN:6
+FPs: tcp_https: 2, 
+FNs: tcp_jabberssl: 1, 3702_udp: 2, tcp_http: 2, tcp_https: 1, 
+Precision: 0,96875
+Recall: 0,911764705882353
+F-Measure: 0,939393939393939
+
+
+tcp_smtptlsssl
+TP:56, FP:9, FN:8
+FPs: tcp_https: 9, 
+FNs: tcp_pop3tlsssl: 3, tcp_https: 5, 
+Precision: 0,861538461538462
+Recall: 0,875
+F-Measure: 0,868217054263566
+
+
+43265_udp
+TP:52, FP:35, FN:65
+FPs: 47993_udp: 33, 51654_udp: 2, 
+FNs: 51654_udp: 12, 47993_udp: 44, 40027_udp: 1, udp_rtp: 4, 40005_udp: 2, 40020_udp: 1, udp_dns: 1, 
+Precision: 0,597701149425287
+Recall: 0,444444444444444
+F-Measure: 0,509803921568628
+
+
+udp_dhcpc
+TP:42, FP:4, FN:2
+FPs: tcp_https: 1, udp_dhcps: 3, 
+FNs: udp_dhcps: 2, 
+Precision: 0,91304347826087
+Recall: 0,954545454545455
+F-Measure: 0,933333333333333
+
+
+12350_tcp
+TP:39, FP:3, FN:0
+FPs: 40029_tcp: 1, tcp_jabberssl: 2, 
+FNs: 
+Precision: 0,928571428571429
+Recall: 1
+F-Measure: 0,962962962962963
+
+
+tcp_jabber
+TP:31, FP:4, FN:0
+FPs: 4070_tcp: 4, 
+FNs: 
+Precision: 0,885714285714286
+Recall: 1
+F-Measure: 0,939393939393939
+
+
+47993_udp
+TP:30, FP:45, FN:38
+FPs: 43265_udp: 44, udp_https: 1, 
+FNs: 43265_udp: 33, 51654_udp: 5, 
+Precision: 0,4
+Recall: 0,441176470588235
+F-Measure: 0,41958041958042
+
+
+11000_udp
+TP:28, FP:0, FN:0
+FPs: 
+FNs: 
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+
+40020_udp
+TP:23, FP:10, FN:9
+FPs: 40003_udp: 1, 40024_udp: 1, 40029_udp: 6, 43265_udp: 1, udp_dns: 1, 
+FNs: 40029_udp: 3, 40003_udp: 1, 40036_udp: 2, 40005_udp: 1, udp_https: 1, 40023_udp: 1, 
+Precision: 0,696969696969697
+Recall: 0,71875
+F-Measure: 0,707692307692308
+
+
+50321_udp
+TP:17, FP:71, FN:97
+FPs: 11888_udp: 2, 3800_udp: 2, 49001_udp: 2, 8621_udp: 4, 8999_udp: 8, udp_onlinegames: 2, udp_p2pbittorrent: 50, udp_rtp: 1, 
+FNs: udp_p2pbittorrent: 68, 3800_udp: 4, 8999_udp: 6, 1024_udp: 9, 11888_udp: 4, 49001_udp: 2, 8621_udp: 2, udp_onlinegames: 1, udp_dns: 1, 
+Precision: 0,193181818181818
+Recall: 0,149122807017544
+F-Measure: 0,168316831683168
+
+
+tcp_dns
+TP:17, FP:6, FN:0
+FPs: tcp_https: 1, tcp_teamviewer: 5, 
+FNs: 
+Precision: 0,739130434782609
+Recall: 1
+F-Measure: 0,85
+
+
+udp_dhcpv6c
+TP:16, FP:2, FN:1
+FPs: 5353_udp: 2, 
+FNs: udp_netbios: 1, 
+Precision: 0,888888888888889
+Recall: 0,941176470588235
+F-Measure: 0,914285714285714
+
+
+45776_tcp
+TP:13, FP:1, FN:0
+FPs: tcp_https: 1, 
+FNs: 
+Precision: 0,928571428571429
+Recall: 1
+F-Measure: 0,962962962962963
+
+
+40027_udp
+TP:11, FP:3, FN:2
+FPs: 40003_udp: 1, 43265_udp: 1, udp_https: 1, 
+FNs: 40024_udp: 1, 40003_udp: 1, 
+Precision: 0,785714285714286
+Recall: 0,846153846153846
+F-Measure: 0,814814814814815
+
+
+49001_udp
+TP:7, FP:34, FN:47
+FPs: 3800_udp: 2, 50321_udp: 2, 51654_udp: 4, 8621_udp: 1, udp_p2pbittorrent: 25, 
+FNs: 8999_udp: 2, udp_p2pbittorrent: 28, 51654_udp: 3, 1024_udp: 6, 3800_udp: 3, 8621_udp: 1, 40003_udp: 1, 11888_udp: 1, 50321_udp: 2, 
+Precision: 0,170731707317073
+Recall: 0,12962962962963
+F-Measure: 0,147368421052632
+
+
+40029_udp
+TP:6, FP:6, FN:20
+FPs: 40020_udp: 3, 40024_udp: 1, 40028_udp: 1, 40030_udp: 1, 
+FNs: 40005_udp: 1, 40018_udp: 7, 40036_udp: 2, 40020_udp: 6, 40028_udp: 4, 
+Precision: 0,5
+Recall: 0,230769230769231
+F-Measure: 0,315789473684211
+
+
+40028_udp
+TP:5, FP:19, FN:1
+FPs: 40003_udp: 2, 40029_udp: 4, 40036_udp: 2, 4070_tcp: 1, udp_dns: 6, udp_p2pbittorrent: 4, 
+FNs: 40029_udp: 1, 
+Precision: 0,208333333333333
+Recall: 0,833333333333333
+F-Measure: 0,333333333333333
+
+
+9875_udp
+TP:5, FP:0, FN:0
+FPs: 
+FNs: 
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+
+3800_udp
+TP:4, FP:53, FN:32
+FPs: 11888_udp: 1, 49001_udp: 3, 50321_udp: 4, 8621_udp: 4, 8999_udp: 4, udp_onlinegames: 1, udp_p2pbittorrent: 36, 
+FNs: 1024_udp: 9, udp_p2pbittorrent: 13, 8621_udp: 2, 50321_udp: 2, 49001_udp: 2, 11888_udp: 1, 6992_udp: 3, 
+Precision: 0,0701754385964912
+Recall: 0,111111111111111
+F-Measure: 0,0860215053763441
+
+
+40003_udp
+TP:4, FP:25, FN:19
+FPs: 40018_udp: 1, 40020_udp: 1, 40023_udp: 1, 40027_udp: 1, 40036_udp: 1, 49001_udp: 1, 8999_udp: 1, udp_onlinegames: 2, udp_p2pbittorrent: 15, udp_rtp: 1, 
+FNs: 40024_udp: 1, 40036_udp: 3, 40018_udp: 6, 40005_udp: 2, 40020_udp: 1, 40027_udp: 1, 40030_udp: 1, 40025_udp: 1, 40028_udp: 2, udp_p2pbittorrent: 1, 
+Precision: 0,137931034482759
+Recall: 0,173913043478261
+F-Measure: 0,153846153846154
+
+
+40018_udp
+TP:4, FP:17, FN:5
+FPs: 40003_udp: 6, 40029_udp: 7, 40036_udp: 1, udp_https: 3, 
+FNs: 40024_udp: 1, 40005_udp: 1, 40030_udp: 1, 40036_udp: 1, 40003_udp: 1, 
+Precision: 0,19047619047619
+Recall: 0,444444444444444
+F-Measure: 0,266666666666667
+
+
+40024_udp
+TP:4, FP:4, FN:6
+FPs: 40003_udp: 1, 40018_udp: 1, 40027_udp: 1, udp_p2pbittorrent: 1, 
+FNs: 40020_udp: 1, 40029_udp: 1, 40023_udp: 2, 40025_udp: 1, 40030_udp: 1, 
+Precision: 0,5
+Recall: 0,4
+F-Measure: 0,444444444444444
+
+
+40029_tcp
+TP:4, FP:3, FN:1
+FPs: 4070_tcp: 3, 
+FNs: 12350_tcp: 1, 
+Precision: 0,571428571428571
+Recall: 0,8
+F-Measure: 0,666666666666667
+
+
+40030_udp
+TP:4, FP:3, FN:1
+FPs: 40003_udp: 1, 40018_udp: 1, 40024_udp: 1, 
+FNs: 40029_udp: 1, 
+Precision: 0,571428571428571
+Recall: 0,8
+F-Measure: 0,666666666666667
+
+
+1024_udp
+TP:3, FP:92, FN:5
+FPs: 3800_udp: 9, 49001_udp: 6, 50321_udp: 9, 6992_udp: 1, 8621_udp: 7, 8999_udp: 6, udp_onlinegames: 1, udp_p2pbittorrent: 53, 
+FNs: udp_p2pbittorrent: 4, 8621_udp: 1, 
+Precision: 0,0315789473684211
+Recall: 0,375
+F-Measure: 0,058252427184466
+
+
+8999_udp
+TP:3, FP:32, FN:55
+FPs: 49001_udp: 2, 50321_udp: 6, 8621_udp: 1, udp_p2pbittorrent: 23, 
+FNs: udp_p2pbittorrent: 30, 11888_udp: 4, 50321_udp: 8, 1024_udp: 6, 3800_udp: 4, 40003_udp: 1, 8621_udp: 1, 6992_udp: 1, 
+Precision: 0,0857142857142857
+Recall: 0,0517241379310345
+F-Measure: 0,0645161290322581
+
+
+11888_udp
+TP:2, FP:49, FN:6
+FPs: 3800_udp: 1, 49001_udp: 1, 50321_udp: 4, 51654_udp: 3, 8621_udp: 2, 8999_udp: 4, udp_p2pbittorrent: 34, 
+FNs: 50321_udp: 2, udp_p2pbittorrent: 3, 3800_udp: 1, 
+Precision: 0,0392156862745098
+Recall: 0,25
+F-Measure: 0,0677966101694915
+
+
+8621_udp
+TP:2, FP:42, FN:40
+FPs: 1024_udp: 1, 3800_udp: 2, 49001_udp: 1, 50321_udp: 2, 8999_udp: 1, udp_onlinegames: 1, udp_p2pbittorrent: 33, udp_rtp: 1, 
+FNs: udp_p2pbittorrent: 21, 3800_udp: 4, 1024_udp: 7, 49001_udp: 1, 11888_udp: 2, 50321_udp: 4, 8999_udp: 1, 
+Precision: 0,0454545454545455
+Recall: 0,0476190476190476
+F-Measure: 0,0465116279069767
+
+
+40005_udp
+TP:1, FP:8, FN:0
+FPs: 40003_udp: 2, 40018_udp: 1, 40020_udp: 1, 40029_udp: 1, 43265_udp: 2, udp_https: 1, 
+FNs: 
+Precision: 0,111111111111111
+Recall: 1
+F-Measure: 0,2
+
+
+40025_udp
+TP:1, FP:2, FN:0
+FPs: 40003_udp: 1, 40024_udp: 1, 
+FNs: 
+Precision: 0,333333333333333
+Recall: 1
+F-Measure: 0,5
+
+
+40036_udp
+TP:1, FP:8, FN:4
+FPs: 40003_udp: 3, 40018_udp: 1, 40020_udp: 2, 40029_udp: 2, 
+FNs: 40018_udp: 1, 40028_udp: 2, 40003_udp: 1, 
+Precision: 0,111111111111111
+Recall: 0,2
+F-Measure: 0,142857142857143
+
+
+40023_udp
+TP:0, FP:3, FN:1
+FPs: 40020_udp: 1, 40024_udp: 2, 
+FNs: 40003_udp: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+6992_udp
+TP:0, FP:69, FN:2
+FPs: 3800_udp: 3, 8999_udp: 1, udp_p2pbittorrent: 65, 
+FNs: 1024_udp: 1, udp_p2pbittorrent: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+

@@ -1,0 +1,630 @@
+443_tcp_https
+TP:95175, FP:51, FN:85
+FPs: 22_tcp_ssh: 3, 465_tcp: 15, 5222_tcp_jabber: 1, 5223_tcp_jabberssl: 20, 5938_tcp: 4, 80_tcp_http: 6, 995_tcp: 2, 
+FNs: 80_tcp_http: 14, 5223_tcp_jabberssl: 11, 5938_tcp: 11, 45776_tcp: 2, 995_tcp: 21, 4070_tcp: 1, 465_tcp: 14, 5222_tcp_jabber: 5, 22_tcp_ssh: 2, 1900_udp: 1, 53_udp_dns: 1, 2869_tcp: 1, 3128_tcp: 1, 
+Precision: 0,999464431982862
+Recall: 0,999107705227798
+F-Measure: 0,999286036769106
+
+
+5355_udp
+TP:35681, FP:2, FN:0
+FPs: 137_udp: 1, 4070_tcp: 1, 
+FNs: 
+Precision: 0,999943950900989
+Recall: 1
+F-Measure: 0,999971974665097
+
+
+53_udp_dns
+TP:35581, FP:25, FN:24
+FPs: 22_tcp_ssh: 1, 40003_udp: 1, 40020_udp: 2, 40024_udp: 1, 40027_udp: 6, 40029_udp: 1, 40030_udp: 1, 43265_udp: 3, 443_tcp_https: 1, 443_udp_https: 1, 49001_udp: 1, 51654_udp: 2, 6881_udp: 4, 
+FNs: 40027_udp: 6, 5005_udp: 1, 40030_udp: 4, 40018_udp: 3, 27018_udp: 1, 40020_udp: 2, 40024_udp: 2, 547_udp_dhcpv6c: 3, 4070_tcp: 2, 
+Precision: 0,999297871145313
+Recall: 0,999325937368347
+F-Measure: 0,999311904059766
+
+
+80_tcp_http
+TP:21942, FP:349, FN:220
+FPs: 2869_tcp: 16, 3128_tcp: 302, 443_tcp_https: 14, 5223_tcp_jabberssl: 5, 6969_tcp: 12, 
+FNs: 6969_tcp: 10, 3128_tcp: 188, 40030_udp: 1, 2869_tcp: 10, 4070_tcp: 4, 443_tcp_https: 6, 45776_tcp: 1, 
+Precision: 0,984343457000583
+Recall: 0,99007309809584
+F-Measure: 0,987199964006929
+
+
+1900_udp
+TP:9702, FP:4, FN:16
+FPs: 1024_udp: 1, 27036_udp: 1, 3800_udp: 1, 443_tcp_https: 1, 
+FNs: 6881_udp: 2, 40030_udp: 13, 11888_udp: 1, 
+Precision: 0,999587883783227
+Recall: 0,998353570693558
+F-Measure: 0,998970345963756
+
+
+27019_udp
+TP:1975, FP:8, FN:435
+FPs: 27017_udp: 2, 27018_udp: 4, 27021_udp: 1, 43265_udp: 1, 
+FNs: 27018_udp: 267, 27017_udp: 149, 27020_udp: 10, 27021_udp: 9, 
+Precision: 0,995965708522441
+Recall: 0,819502074688797
+F-Measure: 0,899157750967448
+
+
+3128_tcp
+TP:1859, FP:192, FN:304
+FPs: 4070_tcp: 3, 443_tcp_https: 1, 80_tcp_http: 188, 
+FNs: 80_tcp_http: 302, 2869_tcp: 2, 
+Precision: 0,906387128230132
+Recall: 0,859454461396209
+F-Measure: 0,882297104888467
+
+
+2869_tcp
+TP:1657, FP:13, FN:16
+FPs: 3128_tcp: 2, 443_tcp_https: 1, 80_tcp_http: 10, 
+FNs: 80_tcp_http: 16, 
+Precision: 0,992215568862275
+Recall: 0,990436341900777
+F-Measure: 0,991325157044571
+
+
+443_udp_https
+TP:1536, FP:14, FN:6
+FPs: 40018_udp: 1, 40020_udp: 1, 40027_udp: 1, 43265_udp: 4, 47993_udp: 6, 6889_udp: 1, 
+FNs: 6881_udp: 1, 11888_udp: 1, 53_udp_dns: 1, 43265_udp: 1, 40025_udp: 2, 
+Precision: 0,990967741935484
+Recall: 0,996108949416342
+F-Measure: 0,99353169469599
+
+
+51654_udp
+TP:1209, FP:6, FN:37
+FPs: 49001_udp: 1, 6881_udp: 1, 6889_udp: 2, 8999_udp: 2, 
+FNs: 8999_udp: 8, 6881_udp: 6, 11888_udp: 6, 57621_udp: 5, 40003_udp: 2, 53_udp_dns: 2, 6882_udp: 6, 49001_udp: 1, 6992_udp: 1, 
+Precision: 0,995061728395062
+Recall: 0,970304975922954
+F-Measure: 0,982527427874848
+
+
+6881_udp
+TP:561, FP:287, FN:288
+FPs: 1024_udp: 3, 11888_udp: 6, 1900_udp: 2, 3702_udp: 1, 3800_udp: 13, 40003_udp: 2, 443_udp_https: 1, 49001_udp: 17, 50321_udp: 69, 51413_udp: 66, 51654_udp: 6, 6882_udp: 10, 6889_udp: 42, 6892_udp: 3, 6992_udp: 1, 8621_udp: 12, 8999_udp: 33, 
+FNs: 51413_udp: 38, 6892_udp: 27, 8999_udp: 6, 49001_udp: 18, 1024_udp: 2, 6889_udp: 16, 11888_udp: 42, 3800_udp: 71, 50321_udp: 21, 40003_udp: 6, 43265_udp: 9, 6882_udp: 15, 6992_udp: 11, 8621_udp: 1, 53_udp_dns: 4, 51654_udp: 1, 
+Precision: 0,661556603773585
+Recall: 0,660777385159011
+F-Measure: 0,661166764879199
+
+
+51413_udp
+TP:489, FP:40, FN:100
+FPs: 49001_udp: 1, 6881_udp: 38, 6882_udp: 1, 
+FNs: 6881_udp: 66, 43265_udp: 4, 49001_udp: 6, 3800_udp: 20, 8621_udp: 3, 6882_udp: 1, 
+Precision: 0,924385633270321
+Recall: 0,830220713073005
+F-Measure: 0,874776386404293
+
+
+138_udp
+TP:421, FP:0, FN:0
+FPs: 
+FNs: 
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+
+137_udp
+TP:374, FP:9, FN:2
+FPs: 5005_udp: 9, 
+FNs: 5355_udp: 1, 5005_udp: 1, 
+Precision: 0,976501305483029
+Recall: 0,99468085106383
+F-Measure: 0,985507246376812
+
+
+67_udp_dhcps
+TP:357, FP:0, FN:5
+FPs: 
+FNs: 67_udp_dhcpc: 5, 
+Precision: 1
+Recall: 0,986187845303867
+F-Measure: 0,993045897079277
+
+
+27018_udp
+TP:273, FP:800, FN:173
+FPs: 27017_udp: 265, 27019_udp: 267, 27020_udp: 174, 27021_udp: 93, 53_udp_dns: 1, 
+FNs: 27017_udp: 144, 27019_udp: 4, 27020_udp: 18, 27021_udp: 7, 
+Precision: 0,254426840633737
+Recall: 0,612107623318386
+F-Measure: 0,359447004608295
+
+
+5938_tcp
+TP:251, FP:16, FN:4
+FPs: 12350_tcp: 5, 443_tcp_https: 11, 
+FNs: 443_tcp_https: 4, 
+Precision: 0,940074906367041
+Recall: 0,984313725490196
+F-Measure: 0,961685823754789
+
+
+3478_udp
+TP:225, FP:0, FN:2
+FPs: 
+FNs: 40024_udp: 2, 
+Precision: 1
+Recall: 0,991189427312775
+F-Measure: 0,995575221238938
+
+
+5353_udp
+TP:213, FP:1, FN:0
+FPs: 43265_udp: 1, 
+FNs: 
+Precision: 0,995327102803738
+Recall: 1
+F-Measure: 0,997658079625293
+
+
+3702_udp
+TP:212, FP:2, FN:1
+FPs: 22_tcp_ssh: 1, 4070_tcp: 1, 
+FNs: 6881_udp: 1, 
+Precision: 0,990654205607477
+Recall: 0,995305164319249
+F-Measure: 0,992974238875878
+
+
+6889_udp
+TP:206, FP:30, FN:80
+FPs: 49001_udp: 8, 6881_udp: 16, 6882_udp: 2, 8621_udp: 4, 
+FNs: 6881_udp: 42, 49001_udp: 10, 3800_udp: 12, 8999_udp: 4, 8621_udp: 3, 1024_udp: 1, 51654_udp: 2, 11888_udp: 3, 6882_udp: 1, 50321_udp: 1, 443_udp_https: 1, 
+Precision: 0,872881355932203
+Recall: 0,72027972027972
+F-Measure: 0,789272030651341
+
+
+6969_tcp
+TP:193, FP:10, FN:12
+FPs: 80_tcp_http: 10, 
+FNs: 80_tcp_http: 12, 
+Precision: 0,950738916256158
+Recall: 0,941463414634146
+F-Measure: 0,946078431372549
+
+
+139_tcp
+TP:190, FP:0, FN:0
+FPs: 
+FNs: 
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+
+995_tcp
+TP:168, FP:21, FN:6
+FPs: 443_tcp_https: 21, 
+FNs: 465_tcp: 4, 443_tcp_https: 2, 
+Precision: 0,888888888888889
+Recall: 0,96551724137931
+F-Measure: 0,925619834710744
+
+
+57621_udp
+TP:167, FP:5, FN:0
+FPs: 51654_udp: 5, 
+FNs: 
+Precision: 0,970930232558139
+Recall: 1
+F-Measure: 0,985250737463127
+
+
+4070_tcp
+TP:161, FP:7, FN:10
+FPs: 443_tcp_https: 1, 53_udp_dns: 2, 80_tcp_http: 4, 
+FNs: 5005_udp: 1, 3128_tcp: 3, 22_tcp_ssh: 2, 40029_tcp: 1, 5222_tcp_jabber: 1, 5355_udp: 1, 3702_udp: 1, 
+Precision: 0,958333333333333
+Recall: 0,941520467836257
+F-Measure: 0,949852507374631
+
+
+5351_udp
+TP:159, FP:0, FN:0
+FPs: 
+FNs: 
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+
+27017_udp
+TP:131, FP:490, FN:293
+FPs: 27018_udp: 144, 27019_udp: 149, 27020_udp: 146, 27021_udp: 51, 
+FNs: 27018_udp: 265, 27020_udp: 14, 40036_udp: 1, 27021_udp: 11, 27019_udp: 2, 
+Precision: 0,210950080515298
+Recall: 0,308962264150943
+F-Measure: 0,250717703349282
+
+
+5223_tcp_jabberssl
+TP:130, FP:11, FN:27
+FPs: 443_tcp_https: 11, 
+FNs: 443_tcp_https: 20, 80_tcp_http: 5, 465_tcp: 1, 5222_tcp_jabber: 1, 
+Precision: 0,921985815602837
+Recall: 0,828025477707006
+F-Measure: 0,87248322147651
+
+
+5938_udp
+TP:82, FP:0, FN:0
+FPs: 
+FNs: 
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+
+43265_udp
+TP:65, FP:38, FN:51
+FPs: 40024_udp: 1, 443_udp_https: 1, 47993_udp: 23, 51413_udp: 4, 6881_udp: 9, 
+FNs: 47993_udp: 36, 27019_udp: 1, 443_udp_https: 4, 40003_udp: 3, 5353_udp: 1, 3800_udp: 1, 53_udp_dns: 3, 11888_udp: 2, 
+Precision: 0,631067961165049
+Recall: 0,560344827586207
+F-Measure: 0,593607305936073
+
+
+22_tcp_ssh
+TP:61, FP:4, FN:7
+FPs: 4070_tcp: 2, 443_tcp_https: 2, 
+FNs: 443_tcp_https: 3, 53_udp_dns: 1, 45776_tcp: 2, 3702_udp: 1, 
+Precision: 0,938461538461538
+Recall: 0,897058823529412
+F-Measure: 0,917293233082707
+
+
+465_tcp
+TP:49, FP:21, FN:15
+FPs: 443_tcp_https: 14, 5222_tcp_jabber: 2, 5223_tcp_jabberssl: 1, 995_tcp: 4, 
+FNs: 443_tcp_https: 15, 
+Precision: 0,7
+Recall: 0,765625
+F-Measure: 0,73134328358209
+
+
+67_udp_dhcpc
+TP:44, FP:5, FN:0
+FPs: 67_udp_dhcps: 5, 
+FNs: 
+Precision: 0,897959183673469
+Recall: 1
+F-Measure: 0,946236559139785
+
+
+47993_udp
+TP:39, FP:37, FN:29
+FPs: 40025_udp: 1, 43265_udp: 36, 
+FNs: 43265_udp: 23, 443_udp_https: 6, 
+Precision: 0,513157894736842
+Recall: 0,573529411764706
+F-Measure: 0,541666666666667
+
+
+5004_udp
+TP:39, FP:0, FN:2
+FPs: 
+FNs: 5005_udp: 2, 
+Precision: 1
+Recall: 0,951219512195122
+F-Measure: 0,975
+
+
+12350_tcp
+TP:32, FP:0, FN:7
+FPs: 
+FNs: 5938_tcp: 5, 40029_tcp: 2, 
+Precision: 1
+Recall: 0,82051282051282
+F-Measure: 0,901408450704225
+
+
+5005_udp
+TP:31, FP:7, FN:9
+FPs: 137_udp: 1, 27036_udp: 1, 4070_tcp: 1, 5004_udp: 2, 53_udp_dns: 1, 547_udp_dhcpv6c: 1, 
+FNs: 137_udp: 9, 
+Precision: 0,815789473684211
+Recall: 0,775
+F-Measure: 0,794871794871795
+
+
+11000_udp
+TP:28, FP:1, FN:0
+FPs: 40030_udp: 1, 
+FNs: 
+Precision: 0,96551724137931
+Recall: 1
+F-Measure: 0,982456140350877
+
+
+5222_tcp_jabber
+TP:28, FP:7, FN:3
+FPs: 4070_tcp: 1, 443_tcp_https: 5, 5223_tcp_jabberssl: 1, 
+FNs: 443_tcp_https: 1, 465_tcp: 2, 
+Precision: 0,8
+Recall: 0,903225806451613
+F-Measure: 0,848484848484849
+
+
+3800_udp
+TP:17, FP:156, FN:19
+FPs: 1024_udp: 2, 11888_udp: 1, 43265_udp: 1, 49001_udp: 7, 50321_udp: 19, 51413_udp: 20, 6881_udp: 71, 6889_udp: 12, 6992_udp: 1, 8621_udp: 13, 8999_udp: 9, 
+FNs: 8621_udp: 2, 6881_udp: 13, 11888_udp: 2, 1900_udp: 1, 6892_udp: 1, 
+Precision: 0,0982658959537572
+Recall: 0,472222222222222
+F-Measure: 0,162679425837321
+
+
+53_tcp_dns
+TP:17, FP:0, FN:0
+FPs: 
+FNs: 
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+
+547_udp_dhcpv6c
+TP:16, FP:3, FN:1
+FPs: 53_udp_dns: 3, 
+FNs: 5005_udp: 1, 
+Precision: 0,842105263157895
+Recall: 0,941176470588235
+F-Measure: 0,888888888888889
+
+
+27036_udp
+TP:15, FP:0, FN:2
+FPs: 
+FNs: 5005_udp: 1, 1900_udp: 1, 
+Precision: 1
+Recall: 0,882352941176471
+F-Measure: 0,9375
+
+
+45776_tcp
+TP:13, FP:5, FN:0
+FPs: 22_tcp_ssh: 2, 443_tcp_https: 2, 80_tcp_http: 1, 
+FNs: 
+Precision: 0,722222222222222
+Recall: 1
+F-Measure: 0,838709677419355
+
+
+50321_udp
+TP:12, FP:29, FN:102
+FPs: 6881_udp: 21, 6889_udp: 1, 8621_udp: 1, 8999_udp: 6, 
+FNs: 6881_udp: 69, 11888_udp: 6, 3800_udp: 19, 6892_udp: 1, 8999_udp: 3, 8621_udp: 1, 49001_udp: 1, 1024_udp: 1, 6882_udp: 1, 
+Precision: 0,292682926829268
+Recall: 0,105263157894737
+F-Measure: 0,154838709677419
+
+
+27020_udp
+TP:10, FP:47, FN:328
+FPs: 27017_udp: 14, 27018_udp: 18, 27019_udp: 10, 27021_udp: 5, 
+FNs: 27017_udp: 146, 27021_udp: 8, 27018_udp: 174, 
+Precision: 0,175438596491228
+Recall: 0,029585798816568
+F-Measure: 0,0506329113924051
+
+
+40020_udp
+TP:10, FP:11, FN:22
+FPs: 40003_udp: 4, 40027_udp: 1, 40029_udp: 3, 40036_udp: 1, 53_udp_dns: 2, 
+FNs: 40003_udp: 7, 40036_udp: 4, 40027_udp: 3, 40025_udp: 2, 443_udp_https: 1, 40024_udp: 1, 53_udp_dns: 2, 40018_udp: 1, 40023_udp: 1, 
+Precision: 0,476190476190476
+Recall: 0,3125
+F-Measure: 0,377358490566038
+
+
+49001_udp
+TP:10, FP:40, FN:44
+FPs: 50321_udp: 1, 51413_udp: 6, 51654_udp: 1, 6881_udp: 18, 6882_udp: 1, 6889_udp: 10, 8621_udp: 3, 
+FNs: 6881_udp: 17, 6889_udp: 8, 3800_udp: 7, 11888_udp: 1, 51654_udp: 1, 53_udp_dns: 1, 6882_udp: 5, 51413_udp: 1, 8999_udp: 1, 6892_udp: 1, 1024_udp: 1, 
+Precision: 0,2
+Recall: 0,185185185185185
+F-Measure: 0,192307692307692
+
+
+40029_udp
+TP:9, FP:3, FN:17
+FPs: 40018_udp: 1, 40027_udp: 1, 40028_udp: 1, 
+FNs: 40025_udp: 3, 40028_udp: 4, 40020_udp: 3, 40003_udp: 2, 53_udp_dns: 1, 40023_udp: 2, 40024_udp: 1, 40027_udp: 1, 
+Precision: 0,75
+Recall: 0,346153846153846
+F-Measure: 0,473684210526316
+
+
+40003_udp
+TP:6, FP:22, FN:17
+FPs: 40005_udp: 1, 40020_udp: 7, 40028_udp: 1, 40029_udp: 2, 43265_udp: 3, 51654_udp: 2, 6881_udp: 6, 
+FNs: 40025_udp: 4, 40027_udp: 2, 40020_udp: 4, 40036_udp: 2, 40028_udp: 1, 6881_udp: 2, 53_udp_dns: 1, 40024_udp: 1, 
+Precision: 0,214285714285714
+Recall: 0,260869565217391
+F-Measure: 0,235294117647059
+
+
+40018_udp
+TP:6, FP:8, FN:3
+FPs: 40020_udp: 1, 40024_udp: 3, 40036_udp: 1, 53_udp_dns: 3, 
+FNs: 40027_udp: 1, 443_udp_https: 1, 40029_udp: 1, 
+Precision: 0,428571428571429
+Recall: 0,666666666666667
+F-Measure: 0,521739130434783
+
+
+40029_tcp
+TP:5, FP:3, FN:0
+FPs: 12350_tcp: 2, 4070_tcp: 1, 
+FNs: 
+Precision: 0,625
+Recall: 1
+F-Measure: 0,769230769230769
+
+
+9875_udp
+TP:5, FP:0, FN:0
+FPs: 
+FNs: 
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+
+8621_udp
+TP:4, FP:10, FN:38
+FPs: 3800_udp: 2, 50321_udp: 1, 51413_udp: 3, 6881_udp: 1, 6889_udp: 3, 
+FNs: 3800_udp: 13, 49001_udp: 3, 11888_udp: 3, 6881_udp: 12, 6889_udp: 4, 50321_udp: 1, 8999_udp: 1, 6882_udp: 1, 
+Precision: 0,285714285714286
+Recall: 0,0952380952380952
+F-Measure: 0,142857142857143
+
+
+27021_udp
+TP:3, FP:35, FN:152
+FPs: 27017_udp: 11, 27018_udp: 7, 27019_udp: 9, 27020_udp: 8, 
+FNs: 27018_udp: 93, 27017_udp: 51, 27020_udp: 5, 27019_udp: 1, 40036_udp: 1, 40023_udp: 1, 
+Precision: 0,0789473684210526
+Recall: 0,0193548387096774
+F-Measure: 0,0310880829015544
+
+
+40028_udp
+TP:3, FP:8, FN:3
+FPs: 40003_udp: 1, 40024_udp: 1, 40027_udp: 1, 40029_udp: 4, 40030_udp: 1, 
+FNs: 40003_udp: 1, 40029_udp: 1, 40027_udp: 1, 
+Precision: 0,272727272727273
+Recall: 0,5
+F-Measure: 0,352941176470588
+
+
+40024_udp
+TP:2, FP:7, FN:8
+FPs: 3478_udp: 2, 40003_udp: 1, 40020_udp: 1, 40029_udp: 1, 53_udp_dns: 2, 
+FNs: 40018_udp: 3, 53_udp_dns: 1, 40028_udp: 1, 40005_udp: 1, 43265_udp: 1, 40027_udp: 1, 
+Precision: 0,222222222222222
+Recall: 0,2
+F-Measure: 0,210526315789474
+
+
+1024_udp
+TP:1, FP:5, FN:7
+FPs: 49001_udp: 1, 50321_udp: 1, 6881_udp: 2, 6889_udp: 1, 
+FNs: 3800_udp: 2, 6881_udp: 3, 1900_udp: 1, 11888_udp: 1, 
+Precision: 0,166666666666667
+Recall: 0,125
+F-Measure: 0,142857142857143
+
+
+40023_udp
+TP:1, FP:6, FN:0
+FPs: 27021_udp: 1, 40020_udp: 1, 40029_udp: 2, 40036_udp: 2, 
+FNs: 
+Precision: 0,142857142857143
+Recall: 1
+F-Measure: 0,25
+
+
+40027_udp
+TP:1, FP:16, FN:12
+FPs: 40003_udp: 2, 40018_udp: 1, 40020_udp: 3, 40024_udp: 1, 40028_udp: 1, 40029_udp: 1, 40030_udp: 1, 53_udp_dns: 6, 
+FNs: 53_udp_dns: 6, 443_udp_https: 1, 40029_udp: 1, 40005_udp: 1, 40020_udp: 1, 40028_udp: 1, 40025_udp: 1, 
+Precision: 0,0588235294117647
+Recall: 0,0769230769230769
+F-Measure: 0,0666666666666667
+
+
+11888_udp
+TP:0, FP:75, FN:8
+FPs: 1024_udp: 1, 1900_udp: 1, 3800_udp: 2, 43265_udp: 2, 443_udp_https: 1, 49001_udp: 1, 50321_udp: 6, 51654_udp: 6, 6881_udp: 42, 6889_udp: 3, 8621_udp: 3, 8999_udp: 7, 
+FNs: 6881_udp: 6, 6882_udp: 1, 3800_udp: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+40005_udp
+TP:0, FP:2, FN:1
+FPs: 40024_udp: 1, 40027_udp: 1, 
+FNs: 40003_udp: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+40025_udp
+TP:0, FP:13, FN:1
+FPs: 40003_udp: 4, 40020_udp: 2, 40027_udp: 1, 40029_udp: 3, 40030_udp: 1, 443_udp_https: 2, 
+FNs: 47993_udp: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+40030_udp
+TP:0, FP:19, FN:5
+FPs: 1900_udp: 13, 40036_udp: 1, 53_udp_dns: 4, 80_tcp_http: 1, 
+FNs: 40027_udp: 1, 53_udp_dns: 1, 11000_udp: 1, 40025_udp: 1, 40028_udp: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+40036_udp
+TP:0, FP:8, FN:5
+FPs: 27017_udp: 1, 27021_udp: 1, 40003_udp: 2, 40020_udp: 4, 
+FNs: 40020_udp: 1, 40023_udp: 2, 40018_udp: 1, 40030_udp: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+6882_udp
+TP:0, FP:33, FN:14
+FPs: 11888_udp: 1, 49001_udp: 5, 50321_udp: 1, 51413_udp: 1, 51654_udp: 6, 6881_udp: 15, 6889_udp: 1, 6892_udp: 1, 8621_udp: 1, 8999_udp: 1, 
+FNs: 6881_udp: 10, 49001_udp: 1, 51413_udp: 1, 6889_udp: 2, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+6892_udp
+TP:0, FP:30, FN:4
+FPs: 3800_udp: 1, 49001_udp: 1, 50321_udp: 1, 6881_udp: 27, 
+FNs: 6881_udp: 3, 6882_udp: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+6992_udp
+TP:0, FP:12, FN:2
+FPs: 51654_udp: 1, 6881_udp: 11, 
+FNs: 3800_udp: 1, 6881_udp: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+8999_udp
+TP:0, FP:23, FN:58
+FPs: 49001_udp: 1, 50321_udp: 3, 51654_udp: 8, 6881_udp: 6, 6889_udp: 4, 8621_udp: 1, 
+FNs: 11888_udp: 7, 3800_udp: 9, 6881_udp: 33, 51654_udp: 2, 50321_udp: 6, 6882_udp: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+

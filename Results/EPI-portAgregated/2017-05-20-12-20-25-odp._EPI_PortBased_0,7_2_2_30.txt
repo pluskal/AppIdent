@@ -1,0 +1,13 @@
+{
+  "TestName": "EPI_PortBased_0,7_2_2_30",
+  "DateTime": "2017-05-20T12:20:25.0540267+02:00",
+  "DateTimeString": "2017-05-20-12-20-25-odp.",
+  "Labels": null,
+  "MinFlows": 30,
+  "FeatureSelectionTreshold": 2.0,
+  "CrossValidationFolds": 2,
+  "TrainingToVerificationRation": 0.7,
+  "IsEpi": true,
+  "IsRandomForest": false,
+  "IsUseFullName": false
+}

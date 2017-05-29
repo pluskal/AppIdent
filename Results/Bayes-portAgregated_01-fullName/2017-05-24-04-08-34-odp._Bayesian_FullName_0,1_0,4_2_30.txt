@@ -1,0 +1,14 @@
+{
+  "TestName": "Bayessian_FullName_0,1_0,4_2_30",
+  "DateTime": "2017-05-24T16:08:34.7451814+02:00",
+  "DateTimeString": "2017-05-24-04-08-34-odp.",
+  "Labels": null,
+  "MinFlows": 30,
+  "FeatureSelectionTreshold": 0.4,
+  "CrossValidationFolds": 2,
+  "TrainingToVerificationRation": 0.1,
+  "IsEpi": false,
+  "IsRandomForest": false,
+  "IsUseFullName": true,
+  "IsBayessian": true
+}

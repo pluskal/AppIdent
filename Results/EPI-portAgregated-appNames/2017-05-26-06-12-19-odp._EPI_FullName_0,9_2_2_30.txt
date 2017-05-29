@@ -1,0 +1,16 @@
+{
+  "RunningTime": "06:00:02.4894149",
+  "TestName": "EPI_FullName_0,9_2_2_30",
+  "DateTime": "2017-05-26T18:12:19.584569+02:00",
+  "DateTimeString": "2017-05-26-06-12-19-odp.",
+  "Labels": null,
+  "MinFlows": 30,
+  "FeatureSelectionTreshold": 2.0,
+  "CrossValidationFolds": 2,
+  "TrainingToVerificationRation": 0.9,
+  "IsEpi": true,
+  "IsRandomForest": false,
+  "IsUseFullName": true,
+  "IsBayessian": false,
+  "BestParametersFilePath": "C:\\Users\\root\\Netfox\\AppIdent\\2017-05-26-06-12-19-odp._EPI_FullName_0,9_2_2_30_bestParameters.bin"
+}

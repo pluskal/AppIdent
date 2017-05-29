@@ -18,15 +18,15 @@ Enhance Statistical Protocol Identification, Bayesian network and Random forests
 * [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/comparisonPAAppTags.pdf)
 
 # Bayesian Classifier
-## Training to vrification ration 0.1
+## Training to Verification Ratio 0.1
 * [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPA01.pdf)
 * [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPA01AppTags.pdf)
 
-## Training to vrification ration 0.2
+## Training to Verification Ratio 0.2
 * [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPA02.pdf)
 * [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPA02AppTags.pdf)
 
-## Training to vrification ration 0.5
+## Training to Verification Ratio 0.5
 * [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPA05.pdf)
 * [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPA05AppTags.pdf)
 
@@ -37,10 +37,10 @@ Enhance Statistical Protocol Identification, Bayesian network and Random forests
 * [Port base AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/espiPBAppTags.pdf)
 
 # Random Forests
-## Training to vrification ration 0.1
+## Training to Verification Ratio 0.1
 * [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/randomForestsPA01.pdf)
 * [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/randomForestsPA01AppTags.pdf)
 
-## Training to vrification ration 0.2
+## Training to Verification Ratio 0.2
 * [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/randomForestsPA02.pdf)
 * [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/randomForestsPA02AppTags.pdf)

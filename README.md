@@ -44,3 +44,7 @@ Enhance Statistical Protocol Identification, Bayesian network and Random forests
 ## Training to Verification Ratio 0.2
 * [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/randomForestsPA02.pdf)
 * [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/randomForestsPA02AppTags.pdf)
+
+# Binary data source
+* [Port base source](https://mega.nz/#!0BBGlSDI!CmEPJrchymnPRK3bMrKNojdnhgrZndVWlM-vrWjvLsg)
+* [Port aggregate source](https://mega.nz/#!FchyCR4L!dM0pqmbX14tGqGUe8gTGiP0iKwGVXZaLbvsOdL201m4)

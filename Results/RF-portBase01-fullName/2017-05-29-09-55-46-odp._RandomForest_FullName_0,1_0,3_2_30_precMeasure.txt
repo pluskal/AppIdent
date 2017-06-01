@@ -1,0 +1,963 @@
+5355_udp-
+TP:40095, FP:72, FN:15
+FPs: 137_udp-: 31, 27036_udp-: 1, 43265_udp-: 1, 49001_udp-: 1, 53_udp_dns-: 37, 6881_udp-: 1, 
+FNs: 43265_udp-: 3, 6881_udp-: 10, 67_udp_dhcps-: 1, 53_udp_dns-: 1, 
+Precision: 0,998207483755322
+Recall: 0,99962602842184
+F-Measure: 0,998916252475802
+
+
+53_udp_dns-
+TP:39858, FP:33, FN:128
+FPs: 137_udp-: 1, 40003_udp-: 2, 40018_udp-: 2, 40027_udp-: 2, 40030_udp-: 2, 43265_udp-: 1, 443_udp_https-: 1, 49001_udp-: 1, 5005_udp-: 1, 50321_udp-: 1, 51413_udp-: 2, 51654_udp-: 8, 5355_udp-: 1, 6881_udp-: 7, 8999_udp-: 1, 
+FNs: 3478_udp-: 14, 40027_udp-: 19, 6881_udp-: 9, 5355_udp-: 37, 1900_udp-: 2, 27018_udp-: 14, 40003_udp-: 5, 67_udp_dhcpc-: 5, 27017_udp-: 5, 547_udp_dhcpv6c-: 3, 40005_udp-: 4, 40025_udp-: 1, 40024_udp-: 1, 51654_udp-: 3, 40030_udp-: 1, 5938_udp-: 2, 27021_udp-: 1, 51413_udp-: 2, 
+Precision: 0,99917274573212
+Recall: 0,996798879607863
+F-Measure: 0,997984401016563
+
+
+443_tcp_https-system
+TP:24291, FP:21205, FN:4490
+FPs: 443_tcp_https-: 3551, 443_tcp_https-firefoxexe: 5671, 443_tcp_https-googledrivesyncexe: 7, 443_tcp_https-chromeexe: 2846, 443_tcp_https-iexploreexe: 4531, 443_tcp_https-itunesexe: 1381, 443_tcp_https-mshtaexe: 3, 443_tcp_https-onedriveexe: 106, 443_tcp_https-skypebrowserhostexe: 284, 443_tcp_https-skypeexe: 680, 443_tcp_https-spotifyexe: 2120, 443_tcp_https-steamexe: 2, 443_tcp_https-steamwebhelperexe: 13, 443_tcp_https-svchostexe: 7, 443_tcp_https-utorrentexe: 2, 5223_tcp_jabberssl-apsdaemonexe: 1, 
+FNs: 443_tcp_https-spotifyexe: 1191, 443_tcp_https-firefoxexe: 1888, 443_tcp_https-chromeexe: 386, 443_tcp_https-: 324, 443_tcp_https-skypeexe: 355, 443_tcp_https-svchostexe: 29, 443_tcp_https-iexploreexe: 117, 443_tcp_https-itunesexe: 109, 443_tcp_https-steamexe: 45, 443_tcp_https-onedriveexe: 38, 443_tcp_https-utorrentexe: 3, 80_tcp_http-utorrentexe: 3, 5938_tcp-: 1, 443_tcp_https-skypebrowserhostexe: 1, 
+Precision: 0,533915069456656
+Recall: 0,843994301796324
+F-Measure: 0,654065188416333
+
+
+80_tcp_http-
+TP:12335, FP:4406, FN:675
+FPs: 22_tcp_ssh-winscpexe: 2, 2869_tcp-: 42, 2869_tcp-system: 117, 3128_tcp-: 109, 3128_tcp-chromeexe: 46, 3128_tcp-steamwebhelperexe: 18, 3128_tcp-system: 83, 6969_tcp-utorrentexe: 1, 80_tcp_http-avgmfapxexe: 9, 80_tcp_http-firefoxexe: 959, 80_tcp_http-iexploreexe: 1445, 80_tcp_http-itunesexe: 232, 80_tcp_http-onedriveexe: 9, 80_tcp_http-spotifyexe: 549, 80_tcp_http-steamexe: 235, 80_tcp_http-system: 67, 80_tcp_http-teamviewer_serviceexe: 61, 80_tcp_http-utorrentexe: 288, 80_tcp_http-utorrentieexe: 134, 
+FNs: 3128_tcp-: 26, 80_tcp_http-firefoxexe: 48, 80_tcp_http-spotifyexe: 160, 80_tcp_http-avgmfapxexe: 72, 80_tcp_http-utorrentexe: 83, 80_tcp_http-iexploreexe: 116, 2869_tcp-: 19, 3128_tcp-system: 19, 80_tcp_http-utorrentieexe: 27, 80_tcp_http-onedriveexe: 47, 4070_tcp-spotifyexe: 4, 443_tcp_https-spotifyexe: 9, 80_tcp_http-system: 11, 443_tcp_https-: 2, 80_tcp_http-teamviewer_serviceexe: 4, 80_tcp_http-steamexe: 22, 6969_tcp-utorrentexe: 1, 3128_tcp-chromeexe: 5, 
+Precision: 0,736813810405591
+Recall: 0,948116833205227
+F-Measure: 0,829215824678162
+
+
+443_tcp_https-firefoxexe
+TP:11236, FP:8234, FN:7512
+FPs: 443_tcp_https-: 1093, 443_tcp_https-googledrivesyncexe: 5, 443_tcp_https-chromeexe: 2450, 443_tcp_https-iexploreexe: 2159, 443_tcp_https-itunesexe: 1, 443_tcp_https-mshtaexe: 1, 443_tcp_https-skypebrowserhostexe: 284, 443_tcp_https-skypeexe: 104, 443_tcp_https-spotifyexe: 172, 443_tcp_https-steamexe: 2, 443_tcp_https-steamwebhelperexe: 9, 443_tcp_https-svchostexe: 58, 443_tcp_https-system: 1888, 443_tcp_https-thunderbirdexe: 6, 465_tcp-thunderbirdexe: 1, 5223_tcp_jabberssl-apsdaemonexe: 1, 
+FNs: 443_tcp_https-system: 5671, 443_tcp_https-chromeexe: 955, 443_tcp_https-: 718, 443_tcp_https-skypeexe: 101, 465_tcp-thunderbirdexe: 8, 443_tcp_https-iexploreexe: 30, 5938_tcp-: 9, 80_tcp_http-utorrentexe: 3, 443_tcp_https-steamexe: 6, 443_tcp_https-spotifyexe: 5, 45776_tcp-utorrentexe: 1, 443_tcp_https-thunderbirdexe: 2, 80_tcp_http-iexploreexe: 2, 22_tcp_ssh-puttyexe: 1, 
+Precision: 0,577092963533641
+Recall: 0,599317260507788
+F-Measure: 0,587995185514679
+
+
+1900_udp-
+TP:10933, FP:14, FN:30
+FPs: 137_udp-: 2, 3702_udp-: 1, 51654_udp-: 6, 53_udp_dns-: 2, 67_udp_dhcpc-: 1, 6881_udp-: 1, 80_tcp_http-steamexe: 1, 
+FNs: 6881_udp-: 2, 67_udp_dhcpc-: 12, 43265_udp-: 11, 3800_udp-: 5, 
+Precision: 0,998721110806614
+Recall: 0,997263522758369
+F-Measure: 0,997991784573254
+
+
+443_tcp_https-itunesexe
+TP:8566, FP:1713, FN:1489
+FPs: 443_tcp_https-: 1471, 443_tcp_https-msmpengexe: 5, 443_tcp_https-onedriveexe: 97, 443_tcp_https-skypebrowserhostexe: 2, 443_tcp_https-spotifyexe: 12, 443_tcp_https-svchostexe: 2, 443_tcp_https-system: 109, 443_tcp_https-utorrentexe: 15, 
+FNs: 443_tcp_https-system: 1381, 443_tcp_https-onedriveexe: 13, 443_tcp_https-: 82, 45776_tcp-utorrentexe: 1, 443_tcp_https-firefoxexe: 1, 443_tcp_https-svchostexe: 5, 5938_tcp-: 1, 5223_tcp_jabberssl-apsdaemonexe: 2, 443_tcp_https-utorrentexe: 2, 22_tcp_ssh-winscpexe: 1, 
+Precision: 0,833349547621364
+Recall: 0,85191447041273
+F-Measure: 0,842529753122848
+
+
+443_tcp_https-
+TP:5952, FP:3074, FN:8115
+FPs: 443_tcp_https-firefoxexe: 718, 443_tcp_https-chromeexe: 676, 443_tcp_https-iexploreexe: 386, 443_tcp_https-itunesexe: 82, 443_tcp_https-msmpengexe: 6, 443_tcp_https-onedriveexe: 235, 443_tcp_https-skypebrowserhostexe: 8, 443_tcp_https-skypeexe: 190, 443_tcp_https-spotifyexe: 376, 443_tcp_https-svchostexe: 46, 443_tcp_https-system: 324, 443_tcp_https-thunderbirdexe: 7, 443_tcp_https-utorrentexe: 4, 465_tcp-thunderbirdexe: 1, 5222_tcp_jabber-pidginexe: 1, 5223_tcp_jabberssl-apsdaemonexe: 3, 5938_tcp-: 3, 5938_tcp-teamviewer_serviceexe: 2, 80_tcp_http-: 2, 80_tcp_http-utorrentexe: 4, 
+FNs: 443_tcp_https-system: 3551, 443_tcp_https-svchostexe: 113, 443_tcp_https-onedriveexe: 271, 443_tcp_https-skypeexe: 375, 443_tcp_https-itunesexe: 1471, 443_tcp_https-spotifyexe: 346, 443_tcp_https-thunderbirdexe: 25, 443_tcp_https-firefoxexe: 1093, 443_tcp_https-chromeexe: 705, 443_tcp_https-steamexe: 7, 5222_tcp_jabber-pidginexe: 1, 4070_tcp-spotifyexe: 1, 443_tcp_https-utorrentexe: 11, 443_tcp_https-iexploreexe: 71, 443_tcp_https-msmpengexe: 42, 5938_tcp-: 16, 22_tcp_ssh-winscpexe: 1, 443_tcp_https-googledrivesyncexe: 11, 80_tcp_http-utorrentexe: 1, 443_tcp_https-skypebrowserhostexe: 1, 465_tcp-thunderbirdexe: 1, 5223_tcp_jabberssl-apsdaemonexe: 1, 
+Precision: 0,65942831819189
+Recall: 0,423117935593943
+F-Measure: 0,515480881652449
+
+
+80_tcp_http-spotifyexe
+TP:4965, FP:198, FN:576
+FPs: 443_tcp_https-spotifyexe: 3, 80_tcp_http-: 160, 80_tcp_http-firefoxexe: 10, 80_tcp_http-iexploreexe: 1, 80_tcp_http-steamexe: 23, 80_tcp_http-utorrentexe: 1, 
+FNs: 80_tcp_http-: 549, 80_tcp_http-utorrentexe: 3, 80_tcp_http-steamexe: 18, 80_tcp_http-iexploreexe: 3, 80_tcp_http-utorrentieexe: 2, 443_tcp_https-skypeexe: 1, 
+Precision: 0,961650203370134
+Recall: 0,896047644829453
+F-Measure: 0,927690582959641
+
+
+443_tcp_https-chromeexe
+TP:4494, FP:2703, FN:6406
+FPs: 443_tcp_https-: 705, 443_tcp_https-firefoxexe: 955, 443_tcp_https-iexploreexe: 315, 443_tcp_https-skypebrowserhostexe: 6, 443_tcp_https-skypeexe: 123, 443_tcp_https-spotifyexe: 213, 443_tcp_https-system: 386, 
+FNs: 443_tcp_https-system: 2846, 443_tcp_https-: 676, 443_tcp_https-firefoxexe: 2450, 443_tcp_https-spotifyexe: 234, 443_tcp_https-skypeexe: 100, 443_tcp_https-iexploreexe: 72, 443_tcp_https-googledrivesyncexe: 9, 443_tcp_https-steamexe: 14, 443_tcp_https-steamwebhelperexe: 2, 465_tcp-thunderbirdexe: 2, 40029_tcp-skypeexe: 1, 
+Precision: 0,624426844518549
+Recall: 0,412293577981651
+F-Measure: 0,496656904459303
+
+
+443_tcp_https-skypeexe
+TP:3750, FP:1217, FN:1404
+FPs: 443_tcp_https-: 375, 443_tcp_https-firefoxexe: 101, 443_tcp_https-googledrivesyncexe: 1, 443_tcp_https-chromeexe: 100, 443_tcp_https-iexploreexe: 271, 443_tcp_https-onedriveexe: 1, 443_tcp_https-skypebrowserhostexe: 4, 443_tcp_https-spotifyexe: 5, 443_tcp_https-steamwebhelperexe: 1, 443_tcp_https-system: 355, 443_tcp_https-utorrentexe: 1, 80_tcp_http-spotifyexe: 1, 80_tcp_http-system: 1, 
+FNs: 443_tcp_https-: 190, 443_tcp_https-chromeexe: 123, 443_tcp_https-system: 680, 443_tcp_https-iexploreexe: 293, 443_tcp_https-firefoxexe: 104, 443_tcp_https-skypebrowserhostexe: 11, 27036_udp-: 3, 
+Precision: 0,75498288705456
+Recall: 0,727590221187427
+F-Measure: 0,741033494713961
+
+
+443_tcp_https-spotifyexe
+TP:2775, FP:2023, FN:2996
+FPs: 3128_tcp-: 2, 3128_tcp-spotifyexe: 2, 443_tcp_https-: 346, 443_tcp_https-firefoxexe: 5, 443_tcp_https-chromeexe: 234, 443_tcp_https-iexploreexe: 208, 443_tcp_https-onedriveexe: 24, 443_tcp_https-svchostexe: 2, 443_tcp_https-system: 1191, 80_tcp_http-: 9, 
+FNs: 443_tcp_https-system: 2120, 443_tcp_https-onedriveexe: 57, 443_tcp_https-: 376, 443_tcp_https-svchostexe: 28, 443_tcp_https-itunesexe: 12, 443_tcp_https-steamwebhelperexe: 8, 443_tcp_https-firefoxexe: 172, 443_tcp_https-chromeexe: 213, 443_tcp_https-skypeexe: 5, 80_tcp_http-spotifyexe: 3, 443_tcp_https-iexploreexe: 1, 443_tcp_https-utorrentexe: 1, 
+Precision: 0,578365985827428
+Recall: 0,480852538554843
+F-Measure: 0,525120635821743
+
+
+27019_udp-
+TP:2287, FP:210, FN:450
+FPs: 27017_udp-: 57, 27018_udp-: 59, 27020_udp-: 58, 27021_udp-: 35, 43265_udp-: 1, 
+FNs: 27020_udp-: 190, 27018_udp-: 96, 27017_udp-: 152, 27021_udp-: 11, 4070_tcp-spotifyexe: 1, 
+Precision: 0,915899078894674
+Recall: 0,835586408476434
+F-Measure: 0,873901413832633
+
+
+443_tcp_https-iexploreexe
+TP:2125, FP:682, FN:7929
+FPs: 443_tcp_https-: 71, 443_tcp_https-firefoxexe: 30, 443_tcp_https-googledrivesyncexe: 3, 443_tcp_https-chromeexe: 72, 443_tcp_https-skypebrowserhostexe: 83, 443_tcp_https-skypeexe: 293, 443_tcp_https-spotifyexe: 1, 443_tcp_https-svchostexe: 8, 443_tcp_https-system: 117, 5222_tcp_jabber-pidginexe: 1, 5223_tcp_jabberssl-apsdaemonexe: 3, 
+FNs: 443_tcp_https-skypeexe: 271, 443_tcp_https-googledrivesyncexe: 26, 443_tcp_https-: 386, 443_tcp_https-system: 4531, 443_tcp_https-chromeexe: 315, 443_tcp_https-firefoxexe: 2159, 443_tcp_https-msmpengexe: 1, 443_tcp_https-steamexe: 13, 443_tcp_https-spotifyexe: 208, 465_tcp-thunderbirdexe: 13, 443_tcp_https-skypebrowserhostexe: 4, 80_tcp_http-utorrentexe: 1, 443_tcp_https-utorrentexe: 1, 
+Precision: 0,757035981474884
+Recall: 0,211358663218619
+F-Measure: 0,330456418629967
+
+
+443_udp_https-
+TP:1701, FP:9, FN:42
+FPs: 40018_udp-: 1, 40020_udp-: 1, 43265_udp-: 4, 67_udp_dhcps-: 2, 6889_udp-: 1, 
+FNs: 40003_udp-: 3, 40027_udp-: 24, 6881_udp-: 1, 40025_udp-: 1, 40005_udp-: 2, 40020_udp-: 4, 40036_udp-: 1, 11000_udp-: 3, 3702_udp-: 1, 53_udp_dns-: 1, 47993_udp-: 1, 
+Precision: 0,994736842105263
+Recall: 0,975903614457831
+F-Measure: 0,985230234578627
+
+
+51654_udp-
+TP:1389, FP:27, FN:29
+FPs: 11888_udp-: 1, 3800_udp-: 1, 43265_udp-: 9, 47993_udp-: 6, 49001_udp-: 4, 53_udp_dns-: 3, 6881_udp-: 1, 8999_udp-: 2, 
+FNs: 8621_udp-: 6, 40023_udp-: 1, 1900_udp-: 6, 6892_udp-: 1, 53_udp_dns-: 8, 49001_udp-: 2, 6881_udp-: 1, 11888_udp-: 3, 47993_udp-: 1, 
+Precision: 0,980932203389831
+Recall: 0,979548660084626
+F-Measure: 0,980239943542696
+
+
+2869_tcp-
+TP:1349, FP:105, FN:58
+FPs: 2869_tcp-system: 83, 3128_tcp-: 1, 3128_tcp-chromeexe: 1, 80_tcp_http-: 19, 80_tcp_http-steamexe: 1, 
+FNs: 80_tcp_http-: 42, 2869_tcp-system: 16, 
+Precision: 0,927785419532325
+Recall: 0,958777540867093
+F-Measure: 0,94302691366655
+
+
+443_tcp_https-onedriveexe
+TP:1066, FP:404, FN:473
+FPs: 443_tcp_https-: 271, 443_tcp_https-itunesexe: 13, 443_tcp_https-msmpengexe: 1, 443_tcp_https-spotifyexe: 57, 443_tcp_https-svchostexe: 21, 443_tcp_https-system: 38, 443_tcp_https-utorrentexe: 2, 5223_tcp_jabberssl-apsdaemonexe: 1, 
+FNs: 443_tcp_https-: 235, 443_tcp_https-itunesexe: 97, 443_tcp_https-spotifyexe: 24, 443_tcp_https-system: 106, 5938_tcp-: 10, 443_tcp_https-skypeexe: 1, 
+Precision: 0,725170068027211
+Recall: 0,692657569850552
+F-Measure: 0,708541043536059
+
+
+80_tcp_http-utorrentexe
+TP:819, FP:119, FN:347
+FPs: 137_udp-: 5, 3128_tcp-chromeexe: 2, 3128_tcp-system: 1, 443_tcp_https-: 1, 443_tcp_https-firefoxexe: 3, 443_tcp_https-iexploreexe: 1, 443_tcp_https-system: 3, 5938_tcp-teamviewer_serviceexe: 1, 80_tcp_http-: 83, 80_tcp_http-firefoxexe: 6, 80_tcp_http-spotifyexe: 3, 80_tcp_http-steamexe: 3, 80_tcp_http-system: 2, 80_tcp_http-teamviewer_serviceexe: 2, 80_tcp_http-utorrentieexe: 3, 
+FNs: 80_tcp_http-: 288, 80_tcp_http-firefoxexe: 4, 80_tcp_http-spotifyexe: 1, 6969_tcp-utorrentexe: 1, 80_tcp_http-iexploreexe: 22, 443_tcp_https-: 4, 3128_tcp-: 11, 22_tcp_ssh-winscpexe: 14, 80_tcp_http-onedriveexe: 1, 80_tcp_http-system: 1, 
+Precision: 0,873134328358209
+Recall: 0,702401372212693
+F-Measure: 0,77851711026616
+
+
+51413_udp-
+TP:559, FP:111, FN:90
+FPs: 3800_udp-: 1, 49001_udp-: 11, 53_udp_dns-: 2, 6881_udp-: 94, 8621_udp-: 3, 
+FNs: 6881_udp-: 61, 6882_udp-: 1, 3800_udp-: 18, 1024_udp-: 2, 49001_udp-: 1, 8621_udp-: 4, 53_udp_dns-: 2, 50321_udp-: 1, 
+Precision: 0,834328358208955
+Recall: 0,861325115562404
+F-Measure: 0,847611827141774
+
+
+80_tcp_http-iexploreexe
+TP:547, FP:435, FN:1629
+FPs: 3128_tcp-: 6, 3128_tcp-chromeexe: 18, 3128_tcp-steamwebhelperexe: 3, 3128_tcp-system: 1, 4070_tcp-spotifyexe: 1, 443_tcp_https-firefoxexe: 2, 80_tcp_http-: 116, 80_tcp_http-firefoxexe: 125, 80_tcp_http-itunesexe: 1, 80_tcp_http-spotifyexe: 3, 80_tcp_http-steamexe: 8, 80_tcp_http-teamviewer_serviceexe: 7, 80_tcp_http-utorrentexe: 22, 80_tcp_http-utorrentieexe: 122, 
+FNs: 80_tcp_http-: 1445, 80_tcp_http-steamexe: 19, 3128_tcp-chromeexe: 74, 80_tcp_http-utorrentieexe: 4, 80_tcp_http-firefoxexe: 49, 3128_tcp-: 18, 3128_tcp-steamwebhelperexe: 10, 80_tcp_http-system: 2, 80_tcp_http-avgmfapxexe: 4, 80_tcp_http-onedriveexe: 1, 3128_tcp-system: 1, 80_tcp_http-spotifyexe: 1, 6969_tcp-utorrentexe: 1, 
+Precision: 0,557026476578411
+Recall: 0,251378676470588
+F-Measure: 0,346421785940469
+
+
+3128_tcp-
+TP:523, FP:379, FN:322
+FPs: 3128_tcp-chromeexe: 181, 3128_tcp-spotifyexe: 1, 3128_tcp-steamwebhelperexe: 25, 3128_tcp-system: 108, 80_tcp_http-: 26, 80_tcp_http-firefoxexe: 5, 80_tcp_http-iexploreexe: 18, 80_tcp_http-system: 1, 80_tcp_http-utorrentexe: 11, 80_tcp_http-utorrentieexe: 3, 
+FNs: 3128_tcp-chromeexe: 150, 3128_tcp-system: 27, 80_tcp_http-firefoxexe: 16, 80_tcp_http-: 109, 3128_tcp-steamwebhelperexe: 6, 80_tcp_http-iexploreexe: 6, 2869_tcp-: 1, 80_tcp_http-system: 2, 443_tcp_https-spotifyexe: 2, 80_tcp_http-utorrentieexe: 3, 
+Precision: 0,579822616407982
+Recall: 0,618934911242604
+F-Measure: 0,598740698340011
+
+
+138_udp-
+TP:472, FP:5, FN:0
+FPs: 137_udp-: 5, 
+FNs: 
+Precision: 0,989517819706499
+Recall: 1
+F-Measure: 0,994731296101159
+
+
+6881_udp-
+TP:461, FP:401, FN:470
+FPs: 1024_udp-: 1, 11888_udp-: 5, 1900_udp-: 2, 3702_udp-: 1, 3800_udp-: 13, 443_udp_https-: 1, 49001_udp-: 10, 50321_udp-: 78, 51413_udp-: 61, 51654_udp-: 1, 53_udp_dns-: 9, 5355_udp-: 10, 6882_udp-: 7, 6889_udp-: 151, 6892_udp-: 1, 8621_udp-: 10, 8999_udp-: 40, 
+FNs: 51413_udp-: 94, 6892_udp-: 120, 1024_udp-: 4, 49001_udp-: 6, 6889_udp-: 28, 6992_udp-: 36, 3800_udp-: 78, 11888_udp-: 25, 5004_udp-: 5, 8621_udp-: 47, 40003_udp-: 11, 53_udp_dns-: 7, 47993_udp-: 4, 1900_udp-: 1, 51654_udp-: 1, 50321_udp-: 2, 5355_udp-: 1, 
+Precision: 0,534802784222738
+Recall: 0,495166487647691
+F-Measure: 0,514221974344674
+
+
+443_tcp_https-svchostexe
+TP:440, FP:175, FN:155
+FPs: 443_tcp_https-: 113, 443_tcp_https-itunesexe: 5, 443_tcp_https-spotifyexe: 28, 443_tcp_https-system: 29, 
+FNs: 443_tcp_https-system: 7, 443_tcp_https-onedriveexe: 21, 443_tcp_https-iexploreexe: 8, 443_tcp_https-firefoxexe: 58, 443_tcp_https-: 46, 443_tcp_https-itunesexe: 2, 443_tcp_https-utorrentexe: 2, 443_tcp_https-googledrivesyncexe: 8, 443_tcp_https-spotifyexe: 2, 47993_udp-: 1, 
+Precision: 0,715447154471545
+Recall: 0,739495798319328
+F-Measure: 0,727272727272727
+
+
+3128_tcp-chromeexe
+TP:434, FP:481, FN:415
+FPs: 3128_tcp-: 150, 3128_tcp-spotifyexe: 16, 3128_tcp-steamwebhelperexe: 148, 3128_tcp-system: 11, 80_tcp_http-: 5, 80_tcp_http-firefoxexe: 47, 80_tcp_http-iexploreexe: 74, 80_tcp_http-itunesexe: 1, 80_tcp_http-steamexe: 3, 80_tcp_http-utorrentieexe: 26, 
+FNs: 3128_tcp-: 181, 80_tcp_http-steamexe: 3, 80_tcp_http-: 46, 3128_tcp-steamwebhelperexe: 115, 3128_tcp-system: 1, 80_tcp_http-firefoxexe: 26, 3128_tcp-spotifyexe: 12, 80_tcp_http-iexploreexe: 18, 80_tcp_http-system: 2, 80_tcp_http-utorrentieexe: 1, 80_tcp_http-utorrentexe: 2, 2869_tcp-: 1, 22_tcp_ssh-puttyexe: 2, 22_tcp_ssh-winscpexe: 5, 
+Precision: 0,47431693989071
+Recall: 0,511189634864546
+F-Measure: 0,492063492063492
+
+
+67_udp_dhcps-
+TP:401, FP:3, FN:33
+FPs: 5355_udp-: 1, 547_udp_dhcpv6c-: 2, 
+FNs: 547_udp_dhcpv6c-: 26, 443_udp_https-: 2, 67_udp_dhcpc-: 5, 
+Precision: 0,992574257425743
+Recall: 0,923963133640553
+F-Measure: 0,957040572792363
+
+
+137_udp-
+TP:364, FP:5, FN:64
+FPs: 3128_tcp-spotifyexe: 3, 43265_udp-: 1, 5005_udp-: 1, 
+FNs: 5355_udp-: 31, 80_tcp_http-utorrentexe: 5, 5005_udp-: 10, 138_udp-: 5, 1900_udp-: 2, 27036_udp-: 10, 53_udp_dns-: 1, 
+Precision: 0,986449864498645
+Recall: 0,850467289719626
+F-Measure: 0,913425345043915
+
+
+443_tcp_https-utorrentexe
+TP:297, FP:20, FN:24
+FPs: 443_tcp_https-: 11, 443_tcp_https-iexploreexe: 1, 443_tcp_https-itunesexe: 2, 443_tcp_https-spotifyexe: 1, 443_tcp_https-svchostexe: 2, 443_tcp_https-system: 3, 
+FNs: 443_tcp_https-: 4, 443_tcp_https-system: 2, 443_tcp_https-itunesexe: 15, 443_tcp_https-onedriveexe: 2, 443_tcp_https-skypeexe: 1, 
+Precision: 0,936908517350158
+Recall: 0,925233644859813
+F-Measure: 0,931034482758621
+
+
+80_tcp_http-teamviewer_serviceexe
+TP:284, FP:5, FN:73
+FPs: 80_tcp_http-: 4, 80_tcp_http-system: 1, 
+FNs: 80_tcp_http-: 61, 80_tcp_http-iexploreexe: 7, 80_tcp_http-steamexe: 3, 80_tcp_http-utorrentexe: 2, 
+Precision: 0,982698961937716
+Recall: 0,795518207282913
+F-Measure: 0,879256965944272
+
+
+2869_tcp-system
+TP:251, FP:16, FN:200
+FPs: 2869_tcp-: 16, 
+FNs: 2869_tcp-: 83, 80_tcp_http-: 117, 
+Precision: 0,940074906367041
+Recall: 0,556541019955654
+F-Measure: 0,6991643454039
+
+
+3478_udp-
+TP:250, FP:15, FN:0
+FPs: 11000_udp-: 1, 53_udp_dns-: 14, 
+FNs: 
+Precision: 0,943396226415094
+Recall: 1
+F-Measure: 0,970873786407767
+
+
+5353_udp-
+TP:224, FP:0, FN:8
+FPs: 
+FNs: 5938_udp-: 5, 5351_udp-: 3, 
+Precision: 1
+Recall: 0,96551724137931
+F-Measure: 0,982456140350877
+
+
+3702_udp-
+TP:221, FP:2, FN:20
+FPs: 443_udp_https-: 1, 5223_tcp_jabberssl-apsdaemonexe: 1, 
+FNs: 43265_udp-: 18, 1900_udp-: 1, 6881_udp-: 1, 
+Precision: 0,991031390134529
+Recall: 0,91701244813278
+F-Measure: 0,952586206896552
+
+
+3128_tcp-steamwebhelperexe
+TP:219, FP:141, FN:221
+FPs: 3128_tcp-: 6, 3128_tcp-chromeexe: 115, 3128_tcp-spotifyexe: 8, 3128_tcp-system: 2, 80_tcp_http-iexploreexe: 10, 
+FNs: 3128_tcp-chromeexe: 148, 3128_tcp-: 25, 3128_tcp-spotifyexe: 11, 80_tcp_http-iexploreexe: 3, 80_tcp_http-: 18, 22_tcp_ssh-puttyexe: 12, 80_tcp_http-firefoxexe: 2, 80_tcp_http-system: 2, 
+Precision: 0,608333333333333
+Recall: 0,497727272727273
+F-Measure: 0,5475
+
+
+6969_tcp-utorrentexe
+TP:219, FP:6, FN:1
+FPs: 80_tcp_http-: 1, 80_tcp_http-firefoxexe: 2, 80_tcp_http-iexploreexe: 1, 80_tcp_http-steamexe: 1, 80_tcp_http-utorrentexe: 1, 
+FNs: 80_tcp_http-: 1, 
+Precision: 0,973333333333333
+Recall: 0,995454545454545
+F-Measure: 0,984269662921348
+
+
+80_tcp_http-steamexe
+TP:217, FP:84, FN:277
+FPs: 3128_tcp-chromeexe: 3, 3128_tcp-system: 6, 80_tcp_http-: 22, 80_tcp_http-firefoxexe: 11, 80_tcp_http-iexploreexe: 19, 80_tcp_http-spotifyexe: 18, 80_tcp_http-system: 2, 80_tcp_http-teamviewer_serviceexe: 3, 
+FNs: 80_tcp_http-: 235, 80_tcp_http-iexploreexe: 8, 1900_udp-: 1, 80_tcp_http-spotifyexe: 23, 2869_tcp-: 1, 6969_tcp-utorrentexe: 1, 80_tcp_http-avgmfapxexe: 1, 80_tcp_http-utorrentexe: 3, 80_tcp_http-system: 1, 3128_tcp-chromeexe: 3, 
+Precision: 0,720930232558139
+Recall: 0,439271255060729
+F-Measure: 0,545911949685535
+
+
+995_tcp-thunderbirdexe
+TP:186, FP:2, FN:7
+FPs: 465_tcp-thunderbirdexe: 2, 
+FNs: 465_tcp-thunderbirdexe: 6, 5938_tcp-teamviewer_serviceexe: 1, 
+Precision: 0,98936170212766
+Recall: 0,963730569948187
+F-Measure: 0,976377952755905
+
+
+5351_udp-
+TP:172, FP:3, FN:0
+FPs: 5353_udp-: 3, 
+FNs: 
+Precision: 0,982857142857143
+Recall: 1
+F-Measure: 0,99135446685879
+
+
+57621_udp-
+TP:170, FP:0, FN:0
+FPs: 
+FNs: 
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+
+27020_udp-
+TP:169, FP:690, FN:220
+FPs: 27017_udp-: 202, 27018_udp-: 189, 27019_udp-: 190, 27021_udp-: 109, 
+FNs: 27017_udp-: 92, 27019_udp-: 58, 27018_udp-: 61, 27021_udp-: 9, 
+Precision: 0,19674039580908
+Recall: 0,434447300771208
+F-Measure: 0,270833333333333
+
+
+4070_tcp-spotifyexe
+TP:164, FP:7, FN:11
+FPs: 27019_udp-: 1, 40029_tcp-skypeexe: 1, 443_tcp_https-: 1, 80_tcp_http-: 4, 
+FNs: 27036_udp-: 1, 40029_tcp-skypeexe: 5, 5222_tcp_jabber-pidginexe: 3, 5223_tcp_jabberssl-apsdaemonexe: 1, 80_tcp_http-iexploreexe: 1, 
+Precision: 0,95906432748538
+Recall: 0,937142857142857
+F-Measure: 0,947976878612717
+
+
+27017_udp-
+TP:153, FP:392, FN:343
+FPs: 27018_udp-: 129, 27019_udp-: 152, 27020_udp-: 92, 27021_udp-: 13, 43265_udp-: 1, 53_udp_dns-: 5, 
+FNs: 27018_udp-: 77, 27020_udp-: 202, 27019_udp-: 57, 27021_udp-: 7, 
+Precision: 0,280733944954128
+Recall: 0,308467741935484
+F-Measure: 0,293948126801153
+
+
+139_tcp-system
+TP:152, FP:1, FN:16
+FPs: 40029_tcp-skypeexe: 1, 
+FNs: 139_tcp-: 16, 
+Precision: 0,993464052287582
+Recall: 0,904761904761905
+F-Measure: 0,947040498442368
+
+
+80_tcp_http-firefoxexe
+TP:151, FP:164, FN:1186
+FPs: 3128_tcp-: 16, 3128_tcp-chromeexe: 26, 3128_tcp-steamwebhelperexe: 2, 3128_tcp-system: 3, 80_tcp_http-: 48, 80_tcp_http-iexploreexe: 49, 80_tcp_http-itunesexe: 2, 80_tcp_http-utorrentexe: 4, 80_tcp_http-utorrentieexe: 14, 
+FNs: 80_tcp_http-: 959, 22_tcp_ssh-winscpexe: 10, 80_tcp_http-iexploreexe: 125, 3128_tcp-chromeexe: 47, 80_tcp_http-spotifyexe: 10, 80_tcp_http-utorrentieexe: 2, 80_tcp_http-steamexe: 11, 80_tcp_http-utorrentexe: 6, 80_tcp_http-system: 6, 22_tcp_ssh-puttyexe: 1, 6969_tcp-utorrentexe: 2, 3128_tcp-: 5, 80_tcp_http-avgmfapxexe: 1, 3128_tcp-system: 1, 
+Precision: 0,479365079365079
+Recall: 0,112939416604338
+F-Measure: 0,182808716707022
+
+
+6889_udp-
+TP:144, FP:41, FN:188
+FPs: 49001_udp-: 7, 6881_udp-: 28, 6882_udp-: 1, 8621_udp-: 5, 
+FNs: 6881_udp-: 151, 3800_udp-: 18, 8621_udp-: 7, 11888_udp-: 2, 40003_udp-: 1, 50321_udp-: 1, 1024_udp-: 1, 443_udp_https-: 1, 49001_udp-: 6, 
+Precision: 0,778378378378378
+Recall: 0,433734939759036
+F-Measure: 0,55705996131528
+
+
+5223_tcp_jabberssl-apsdaemonexe
+TP:142, FP:6, FN:15
+FPs: 12350_tcp-skypeexe: 1, 40029_tcp-skypeexe: 1, 4070_tcp-spotifyexe: 1, 443_tcp_https-: 1, 443_tcp_https-itunesexe: 2, 
+FNs: 5938_tcp-: 5, 443_tcp_https-iexploreexe: 3, 443_tcp_https-: 3, 443_tcp_https-onedriveexe: 1, 443_tcp_https-firefoxexe: 1, 3702_udp-: 1, 443_tcp_https-system: 1, 
+Precision: 0,959459459459459
+Recall: 0,904458598726115
+F-Measure: 0,931147540983607
+
+
+27018_udp-
+TP:123, FP:261, FN:386
+FPs: 27017_udp-: 77, 27019_udp-: 96, 27020_udp-: 61, 27021_udp-: 13, 53_udp_dns-: 14, 
+FNs: 27020_udp-: 189, 27017_udp-: 129, 27021_udp-: 9, 27019_udp-: 59, 
+Precision: 0,3203125
+Recall: 0,241650294695481
+F-Measure: 0,275475923852184
+
+
+5938_udp-
+TP:82, FP:9, FN:0
+FPs: 43265_udp-: 2, 53_udp_dns-: 2, 5353_udp-: 5, 
+FNs: 
+Precision: 0,901098901098901
+Recall: 1
+F-Measure: 0,947976878612717
+
+
+5938_tcp-
+TP:78, FP:55, FN:17
+FPs: 443_tcp_https-: 16, 443_tcp_https-firefoxexe: 9, 443_tcp_https-itunesexe: 1, 443_tcp_https-onedriveexe: 10, 443_tcp_https-system: 1, 5223_tcp_jabberssl-apsdaemonexe: 5, 5938_tcp-system: 5, 5938_tcp-teamviewer_serviceexe: 8, 
+FNs: 5938_tcp-teamviewer_serviceexe: 14, 443_tcp_https-: 3, 
+Precision: 0,586466165413534
+Recall: 0,821052631578947
+F-Measure: 0,684210526315789
+
+
+465_tcp-thunderbirdexe
+TP:60, FP:30, FN:4
+FPs: 443_tcp_https-: 1, 443_tcp_https-firefoxexe: 8, 443_tcp_https-chromeexe: 2, 443_tcp_https-iexploreexe: 13, 995_tcp-thunderbirdexe: 6, 
+FNs: 443_tcp_https-: 1, 995_tcp-thunderbirdexe: 2, 443_tcp_https-firefoxexe: 1, 
+Precision: 0,666666666666667
+Recall: 0,9375
+F-Measure: 0,779220779220779
+
+
+80_tcp_http-onedriveexe
+TP:52, FP:49, FN:9
+FPs: 80_tcp_http-: 47, 80_tcp_http-iexploreexe: 1, 80_tcp_http-utorrentexe: 1, 
+FNs: 80_tcp_http-: 9, 
+Precision: 0,514851485148515
+Recall: 0,852459016393443
+F-Measure: 0,641975308641975
+
+
+43265_udp-
+TP:44, FP:59, FN:76
+FPs: 1900_udp-: 11, 3702_udp-: 18, 40029_udp-: 1, 47993_udp-: 26, 5355_udp-: 3, 
+FNs: 47993_udp-: 52, 27019_udp-: 1, 53_udp_dns-: 1, 40023_udp-: 3, 51654_udp-: 9, 443_udp_https-: 4, 5938_udp-: 2, 3800_udp-: 1, 137_udp-: 1, 27017_udp-: 1, 5355_udp-: 1, 
+Precision: 0,427184466019417
+Recall: 0,366666666666667
+F-Measure: 0,394618834080717
+
+
+67_udp_dhcpc-
+TP:43, FP:22, FN:1
+FPs: 1900_udp-: 12, 53_udp_dns-: 5, 67_udp_dhcps-: 5, 
+FNs: 1900_udp-: 1, 
+Precision: 0,661538461538462
+Recall: 0,977272727272727
+F-Measure: 0,788990825688073
+
+
+5004_udp-
+TP:41, FP:8, FN:0
+FPs: 49001_udp-: 1, 5005_udp-: 2, 6881_udp-: 5, 
+FNs: 
+Precision: 0,836734693877551
+Recall: 1
+F-Measure: 0,911111111111111
+
+
+5938_tcp-teamviewer_serviceexe
+TP:38, FP:27, FN:52
+FPs: 5938_tcp-: 14, 5938_tcp-system: 12, 995_tcp-thunderbirdexe: 1, 
+FNs: 5938_tcp-system: 41, 5938_tcp-: 8, 443_tcp_https-: 2, 80_tcp_http-utorrentexe: 1, 
+Precision: 0,584615384615385
+Recall: 0,422222222222222
+F-Measure: 0,490322580645161
+
+
+5005_udp-
+TP:36, FP:10, FN:4
+FPs: 137_udp-: 10, 
+FNs: 53_udp_dns-: 1, 137_udp-: 1, 5004_udp-: 2, 
+Precision: 0,782608695652174
+Recall: 0,9
+F-Measure: 0,837209302325581
+
+
+47993_udp-
+TP:34, FP:60, FN:34
+FPs: 40029_udp-: 1, 43265_udp-: 52, 443_tcp_https-svchostexe: 1, 443_udp_https-: 1, 51654_udp-: 1, 6881_udp-: 4, 
+FNs: 43265_udp-: 26, 51654_udp-: 6, 40029_udp-: 1, 40024_udp-: 1, 
+Precision: 0,361702127659574
+Recall: 0,5
+F-Measure: 0,419753086419753
+
+
+5938_tcp-system
+TP:31, FP:41, FN:17
+FPs: 5938_tcp-teamviewer_serviceexe: 41, 
+FNs: 5938_tcp-teamviewer_serviceexe: 12, 5938_tcp-: 5, 
+Precision: 0,430555555555556
+Recall: 0,645833333333333
+F-Measure: 0,516666666666667
+
+
+443_tcp_https-steamexe
+TP:29, FP:85, FN:4
+FPs: 443_tcp_https-: 7, 443_tcp_https-firefoxexe: 6, 443_tcp_https-chromeexe: 14, 443_tcp_https-iexploreexe: 13, 443_tcp_https-system: 45, 
+FNs: 443_tcp_https-firefoxexe: 2, 443_tcp_https-system: 2, 
+Precision: 0,254385964912281
+Recall: 0,878787878787879
+F-Measure: 0,394557823129252
+
+
+5222_tcp_jabber-pidginexe
+TP:29, FP:5, FN:2
+FPs: 12350_tcp-skypeexe: 1, 4070_tcp-spotifyexe: 3, 443_tcp_https-: 1, 
+FNs: 443_tcp_https-: 1, 443_tcp_https-iexploreexe: 1, 
+Precision: 0,852941176470588
+Recall: 0,935483870967742
+F-Measure: 0,892307692307692
+
+
+11000_udp-
+TP:27, FP:3, FN:1
+FPs: 443_udp_https-: 3, 
+FNs: 3478_udp-: 1, 
+Precision: 0,9
+Recall: 0,964285714285714
+F-Measure: 0,931034482758621
+
+
+22_tcp_ssh-winscpexe
+TP:27, FP:32, FN:5
+FPs: 3128_tcp-chromeexe: 5, 443_tcp_https-: 1, 443_tcp_https-itunesexe: 1, 80_tcp_http-firefoxexe: 10, 80_tcp_http-utorrentexe: 14, 80_tcp_http-utorrentieexe: 1, 
+FNs: 40029_udp-: 1, 80_tcp_http-: 2, 45776_tcp-utorrentexe: 1, 22_tcp_ssh-puttyexe: 1, 
+Precision: 0,457627118644068
+Recall: 0,84375
+F-Measure: 0,593406593406593
+
+
+443_tcp_https-msmpengexe
+TP:26, FP:43, FN:12
+FPs: 443_tcp_https-: 42, 443_tcp_https-iexploreexe: 1, 
+FNs: 443_tcp_https-itunesexe: 5, 443_tcp_https-: 6, 443_tcp_https-onedriveexe: 1, 
+Precision: 0,376811594202899
+Recall: 0,684210526315789
+F-Measure: 0,485981308411215
+
+
+12350_tcp-skypeexe
+TP:25, FP:0, FN:14
+FPs: 
+FNs: 40029_tcp-skypeexe: 12, 5223_tcp_jabberssl-apsdaemonexe: 1, 5222_tcp_jabber-pidginexe: 1, 
+Precision: 1
+Recall: 0,641025641025641
+F-Measure: 0,78125
+
+
+443_tcp_https-skypebrowserhostexe
+TP:25, FP:17, FN:672
+FPs: 443_tcp_https-: 1, 443_tcp_https-iexploreexe: 4, 443_tcp_https-skypeexe: 11, 443_tcp_https-system: 1, 
+FNs: 443_tcp_https-firefoxexe: 284, 443_tcp_https-system: 284, 443_tcp_https-iexploreexe: 83, 443_tcp_https-: 8, 443_tcp_https-chromeexe: 6, 443_tcp_https-googledrivesyncexe: 1, 443_tcp_https-skypeexe: 4, 443_tcp_https-itunesexe: 2, 
+Precision: 0,595238095238095
+Recall: 0,0358680057388809
+F-Measure: 0,06765899864682
+
+
+139_tcp-
+TP:22, FP:16, FN:0
+FPs: 139_tcp-system: 16, 
+FNs: 
+Precision: 0,578947368421053
+Recall: 1
+F-Measure: 0,733333333333333
+
+
+53_tcp_dns-system
+TP:17, FP:0, FN:0
+FPs: 
+FNs: 
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+
+80_tcp_http-utorrentieexe
+TP:17, FP:39, FN:308
+FPs: 3128_tcp-: 3, 3128_tcp-chromeexe: 1, 80_tcp_http-: 27, 80_tcp_http-firefoxexe: 2, 80_tcp_http-iexploreexe: 4, 80_tcp_http-spotifyexe: 2, 
+FNs: 80_tcp_http-iexploreexe: 122, 80_tcp_http-: 134, 3128_tcp-chromeexe: 26, 80_tcp_http-firefoxexe: 14, 80_tcp_http-system: 5, 80_tcp_http-utorrentexe: 3, 3128_tcp-: 3, 22_tcp_ssh-winscpexe: 1, 
+Precision: 0,303571428571429
+Recall: 0,0523076923076923
+F-Measure: 0,0892388451443569
+
+
+27036_udp-
+TP:16, FP:14, FN:1
+FPs: 137_udp-: 10, 4070_tcp-spotifyexe: 1, 443_tcp_https-skypeexe: 3, 
+FNs: 5355_udp-: 1, 
+Precision: 0,533333333333333
+Recall: 0,941176470588235
+F-Measure: 0,680851063829787
+
+
+3128_tcp-spotifyexe
+TP:16, FP:23, FN:30
+FPs: 3128_tcp-chromeexe: 12, 3128_tcp-steamwebhelperexe: 11, 
+FNs: 3128_tcp-chromeexe: 16, 3128_tcp-: 1, 3128_tcp-steamwebhelperexe: 8, 137_udp-: 3, 443_tcp_https-spotifyexe: 2, 
+Precision: 0,41025641025641
+Recall: 0,347826086956522
+F-Measure: 0,376470588235294
+
+
+3128_tcp-system
+TP:16, FP:52, FN:225
+FPs: 3128_tcp-: 27, 3128_tcp-chromeexe: 1, 80_tcp_http-: 19, 80_tcp_http-firefoxexe: 1, 80_tcp_http-iexploreexe: 1, 80_tcp_http-itunesexe: 1, 80_tcp_http-system: 2, 
+FNs: 3128_tcp-: 108, 80_tcp_http-: 83, 80_tcp_http-iexploreexe: 1, 3128_tcp-chromeexe: 11, 80_tcp_http-firefoxexe: 3, 80_tcp_http-utorrentexe: 1, 80_tcp_http-system: 10, 3128_tcp-steamwebhelperexe: 2, 80_tcp_http-steamexe: 6, 
+Precision: 0,235294117647059
+Recall: 0,0663900414937759
+F-Measure: 0,103559870550162
+
+
+3800_udp-
+TP:15, FP:177, FN:21
+FPs: 1024_udp-: 2, 11888_udp-: 1, 1900_udp-: 5, 43265_udp-: 1, 49001_udp-: 6, 50321_udp-: 19, 51413_udp-: 18, 6881_udp-: 78, 6882_udp-: 1, 6889_udp-: 18, 6892_udp-: 1, 6992_udp-: 2, 8621_udp-: 16, 8999_udp-: 9, 
+FNs: 6881_udp-: 13, 8621_udp-: 4, 49001_udp-: 1, 51413_udp-: 1, 1024_udp-: 1, 51654_udp-: 1, 
+Precision: 0,078125
+Recall: 0,416666666666667
+F-Measure: 0,131578947368421
+
+
+547_udp_dhcpv6c-
+TP:15, FP:29, FN:2
+FPs: 53_udp_dns-: 3, 67_udp_dhcps-: 26, 
+FNs: 67_udp_dhcps-: 2, 
+Precision: 0,340909090909091
+Recall: 0,882352941176471
+F-Measure: 0,491803278688525
+
+
+80_tcp_http-system
+TP:14, FP:42, FN:78
+FPs: 3128_tcp-: 2, 3128_tcp-chromeexe: 2, 3128_tcp-steamwebhelperexe: 2, 3128_tcp-system: 10, 80_tcp_http-: 11, 80_tcp_http-firefoxexe: 6, 80_tcp_http-iexploreexe: 2, 80_tcp_http-steamexe: 1, 80_tcp_http-utorrentexe: 1, 80_tcp_http-utorrentieexe: 5, 
+FNs: 80_tcp_http-: 67, 80_tcp_http-avgmfapxexe: 2, 80_tcp_http-steamexe: 2, 3128_tcp-: 1, 443_tcp_https-skypeexe: 1, 80_tcp_http-teamviewer_serviceexe: 1, 80_tcp_http-utorrentexe: 2, 3128_tcp-system: 2, 
+Precision: 0,25
+Recall: 0,152173913043478
+F-Measure: 0,189189189189189
+
+
+45776_tcp-utorrentexe
+TP:13, FP:3, FN:0
+FPs: 22_tcp_ssh-winscpexe: 1, 443_tcp_https-firefoxexe: 1, 443_tcp_https-itunesexe: 1, 
+FNs: 
+Precision: 0,8125
+Recall: 1
+F-Measure: 0,896551724137931
+
+
+40003_udp-
+TP:10, FP:37, FN:13
+FPs: 40018_udp-: 1, 40020_udp-: 9, 40024_udp-: 3, 40028_udp-: 1, 40029_udp-: 3, 443_udp_https-: 3, 53_udp_dns-: 5, 6881_udp-: 11, 6889_udp-: 1, 
+FNs: 53_udp_dns-: 2, 40027_udp-: 2, 40018_udp-: 1, 40036_udp-: 3, 40028_udp-: 1, 40020_udp-: 1, 40005_udp-: 1, 40025_udp-: 1, 40023_udp-: 1, 
+Precision: 0,212765957446809
+Recall: 0,434782608695652
+F-Measure: 0,285714285714286
+
+
+40020_udp-
+TP:10, FP:8, FN:22
+FPs: 40003_udp-: 1, 40027_udp-: 1, 40029_udp-: 2, 443_udp_https-: 4, 
+FNs: 40025_udp-: 5, 40003_udp-: 9, 443_udp_https-: 1, 40023_udp-: 3, 40005_udp-: 3, 40029_udp-: 1, 
+Precision: 0,555555555555556
+Recall: 0,3125
+F-Measure: 0,4
+
+
+22_tcp_ssh-puttyexe
+TP:6, FP:17, FN:0
+FPs: 22_tcp_ssh-winscpexe: 1, 3128_tcp-chromeexe: 2, 3128_tcp-steamwebhelperexe: 12, 443_tcp_https-firefoxexe: 1, 80_tcp_http-firefoxexe: 1, 
+FNs: 
+Precision: 0,260869565217391
+Recall: 1
+F-Measure: 0,413793103448276
+
+
+40029_udp-
+TP:6, FP:7, FN:20
+FPs: 22_tcp_ssh-winscpexe: 1, 40020_udp-: 1, 40024_udp-: 2, 40027_udp-: 1, 40028_udp-: 1, 47993_udp-: 1, 
+FNs: 40025_udp-: 5, 40023_udp-: 2, 40028_udp-: 4, 47993_udp-: 1, 40003_udp-: 3, 43265_udp-: 1, 40020_udp-: 2, 40018_udp-: 2, 
+Precision: 0,461538461538462
+Recall: 0,230769230769231
+F-Measure: 0,307692307692308
+
+
+49001_udp-
+TP:6, FP:18, FN:48
+FPs: 3800_udp-: 1, 50321_udp-: 1, 51413_udp-: 1, 51654_udp-: 2, 6881_udp-: 6, 6889_udp-: 6, 8621_udp-: 1, 
+FNs: 6889_udp-: 7, 51413_udp-: 11, 3800_udp-: 6, 53_udp_dns-: 1, 8621_udp-: 5, 6881_udp-: 10, 51654_udp-: 4, 5004_udp-: 1, 6882_udp-: 1, 11888_udp-: 1, 5355_udp-: 1, 
+Precision: 0,25
+Recall: 0,111111111111111
+F-Measure: 0,153846153846154
+
+
+8621_udp-
+TP:6, FP:88, FN:36
+FPs: 1024_udp-: 3, 11888_udp-: 1, 3800_udp-: 4, 49001_udp-: 5, 50321_udp-: 9, 51413_udp-: 4, 51654_udp-: 6, 6881_udp-: 47, 6882_udp-: 1, 6889_udp-: 7, 8999_udp-: 1, 
+FNs: 3800_udp-: 16, 51413_udp-: 3, 49001_udp-: 1, 6889_udp-: 5, 50321_udp-: 1, 6881_udp-: 10, 
+Precision: 0,0638297872340425
+Recall: 0,142857142857143
+F-Measure: 0,0882352941176471
+
+
+443_tcp_https-googledrivesyncexe
+TP:5, FP:55, FN:16
+FPs: 443_tcp_https-: 11, 443_tcp_https-chromeexe: 9, 443_tcp_https-iexploreexe: 26, 443_tcp_https-skypebrowserhostexe: 1, 443_tcp_https-svchostexe: 8, 
+FNs: 443_tcp_https-firefoxexe: 5, 443_tcp_https-iexploreexe: 3, 443_tcp_https-system: 7, 443_tcp_https-skypeexe: 1, 
+Precision: 0,0833333333333333
+Recall: 0,238095238095238
+F-Measure: 0,123456790123457
+
+
+9875_udp-
+TP:5, FP:0, FN:0
+FPs: 
+FNs: 
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+
+27021_udp-
+TP:4, FP:37, FN:170
+FPs: 27017_udp-: 7, 27018_udp-: 9, 27019_udp-: 11, 27020_udp-: 9, 53_udp_dns-: 1, 
+FNs: 27020_udp-: 109, 27017_udp-: 13, 27018_udp-: 13, 27019_udp-: 35, 
+Precision: 0,0975609756097561
+Recall: 0,0229885057471264
+F-Measure: 0,0372093023255814
+
+
+443_tcp_https-thunderbirdexe
+TP:4, FP:27, FN:13
+FPs: 443_tcp_https-: 25, 443_tcp_https-firefoxexe: 2, 
+FNs: 443_tcp_https-firefoxexe: 6, 443_tcp_https-: 7, 
+Precision: 0,129032258064516
+Recall: 0,235294117647059
+F-Measure: 0,166666666666667
+
+
+40018_udp-
+TP:2, FP:8, FN:7
+FPs: 40003_udp-: 1, 40024_udp-: 1, 40027_udp-: 3, 40029_udp-: 2, 40036_udp-: 1, 
+FNs: 53_udp_dns-: 2, 40028_udp-: 1, 443_udp_https-: 1, 40003_udp-: 1, 40025_udp-: 1, 40030_udp-: 1, 
+Precision: 0,2
+Recall: 0,222222222222222
+F-Measure: 0,210526315789474
+
+
+40027_udp-
+TP:2, FP:46, FN:11
+FPs: 40003_udp-: 2, 40024_udp-: 1, 443_udp_https-: 24, 53_udp_dns-: 19, 
+FNs: 53_udp_dns-: 2, 40018_udp-: 3, 40029_udp-: 1, 40036_udp-: 1, 40028_udp-: 2, 40020_udp-: 1, 40024_udp-: 1, 
+Precision: 0,0416666666666667
+Recall: 0,153846153846154
+F-Measure: 0,0655737704918033
+
+
+40028_udp-
+TP:2, FP:9, FN:4
+FPs: 40003_udp-: 1, 40018_udp-: 1, 40024_udp-: 1, 40027_udp-: 2, 40029_udp-: 4, 
+FNs: 40025_udp-: 1, 40005_udp-: 1, 40029_udp-: 1, 40003_udp-: 1, 
+Precision: 0,181818181818182
+Recall: 0,333333333333333
+F-Measure: 0,235294117647059
+
+
+40029_tcp-skypeexe
+TP:2, FP:18, FN:3
+FPs: 12350_tcp-skypeexe: 12, 4070_tcp-spotifyexe: 5, 443_tcp_https-chromeexe: 1, 
+FNs: 139_tcp-system: 1, 5223_tcp_jabberssl-apsdaemonexe: 1, 4070_tcp-spotifyexe: 1, 
+Precision: 0,1
+Recall: 0,4
+F-Measure: 0,16
+
+
+6892_udp-
+TP:2, FP:123, FN:2
+FPs: 50321_udp-: 1, 51654_udp-: 1, 6881_udp-: 120, 6882_udp-: 1, 
+FNs: 3800_udp-: 1, 6881_udp-: 1, 
+Precision: 0,016
+Recall: 0,5
+F-Measure: 0,0310077519379845
+
+
+1024_udp-
+TP:1, FP:9, FN:7
+FPs: 3800_udp-: 1, 51413_udp-: 2, 6881_udp-: 4, 6889_udp-: 1, 8999_udp-: 1, 
+FNs: 3800_udp-: 2, 8621_udp-: 3, 6881_udp-: 1, 50321_udp-: 1, 
+Precision: 0,1
+Recall: 0,125
+F-Measure: 0,111111111111111
+
+
+40023_udp-
+TP:1, FP:11, FN:0
+FPs: 40003_udp-: 1, 40020_udp-: 3, 40029_udp-: 2, 40036_udp-: 1, 43265_udp-: 3, 51654_udp-: 1, 
+FNs: 
+Precision: 0,0833333333333333
+Recall: 1
+F-Measure: 0,153846153846154
+
+
+40024_udp-
+TP:1, FP:3, FN:9
+FPs: 40027_udp-: 1, 47993_udp-: 1, 53_udp_dns-: 1, 
+FNs: 40029_udp-: 2, 40003_udp-: 3, 40025_udp-: 1, 40027_udp-: 1, 40028_udp-: 1, 40018_udp-: 1, 
+Precision: 0,25
+Recall: 0,1
+F-Measure: 0,142857142857143
+
+
+40025_udp-
+TP:1, FP:20, FN:0
+FPs: 40003_udp-: 1, 40005_udp-: 1, 40018_udp-: 1, 40020_udp-: 5, 40024_udp-: 1, 40028_udp-: 1, 40029_udp-: 5, 40030_udp-: 1, 40036_udp-: 2, 443_udp_https-: 1, 53_udp_dns-: 1, 
+FNs: 
+Precision: 0,0476190476190476
+Recall: 1
+F-Measure: 0,0909090909090909
+
+
+40030_udp-
+TP:1, FP:2, FN:4
+FPs: 40018_udp-: 1, 53_udp_dns-: 1, 
+FNs: 40005_udp-: 1, 53_udp_dns-: 2, 40025_udp-: 1, 
+Precision: 0,333333333333333
+Recall: 0,2
+F-Measure: 0,25
+
+
+443_tcp_https-steamwebhelperexe
+TP:1, FP:10, FN:23
+FPs: 443_tcp_https-chromeexe: 2, 443_tcp_https-spotifyexe: 8, 
+FNs: 443_tcp_https-system: 13, 443_tcp_https-firefoxexe: 9, 443_tcp_https-skypeexe: 1, 
+Precision: 0,0909090909090909
+Recall: 0,0416666666666667
+F-Measure: 0,0571428571428571
+
+
+6882_udp-
+TP:1, FP:2, FN:13
+FPs: 49001_udp-: 1, 51413_udp-: 1, 
+FNs: 6881_udp-: 7, 6892_udp-: 1, 6889_udp-: 1, 11888_udp-: 1, 6992_udp-: 1, 8621_udp-: 1, 3800_udp-: 1, 
+Precision: 0,333333333333333
+Recall: 0,0714285714285714
+F-Measure: 0,117647058823529
+
+
+80_tcp_http-avgmfapxexe
+TP:1, FP:80, FN:9
+FPs: 80_tcp_http-: 72, 80_tcp_http-firefoxexe: 1, 80_tcp_http-iexploreexe: 4, 80_tcp_http-steamexe: 1, 80_tcp_http-system: 2, 
+FNs: 80_tcp_http-: 9, 
+Precision: 0,0123456790123457
+Recall: 0,1
+F-Measure: 0,021978021978022
+
+
+11888_udp-
+TP:0, FP:41, FN:8
+FPs: 49001_udp-: 1, 50321_udp-: 5, 51654_udp-: 3, 6881_udp-: 25, 6882_udp-: 1, 6889_udp-: 2, 8999_udp-: 4, 
+FNs: 8621_udp-: 1, 6881_udp-: 5, 51654_udp-: 1, 3800_udp-: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+40005_udp-
+TP:0, FP:13, FN:1
+FPs: 40003_udp-: 1, 40020_udp-: 3, 40028_udp-: 1, 40030_udp-: 1, 40036_udp-: 1, 443_udp_https-: 2, 53_udp_dns-: 4, 
+FNs: 40025_udp-: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+40036_udp-
+TP:0, FP:5, FN:5
+FPs: 40003_udp-: 3, 40027_udp-: 1, 443_udp_https-: 1, 
+FNs: 40025_udp-: 2, 40023_udp-: 1, 40018_udp-: 1, 40005_udp-: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+443_tcp_https-mshtaexe
+TP:0, FP:0, FN:4
+FPs: 
+FNs: 443_tcp_https-firefoxexe: 1, 443_tcp_https-system: 3, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+50321_udp-
+TP:0, FP:6, FN:114
+FPs: 1024_udp-: 1, 51413_udp-: 1, 6881_udp-: 2, 6889_udp-: 1, 8621_udp-: 1, 
+FNs: 6881_udp-: 78, 3800_udp-: 19, 49001_udp-: 1, 6892_udp-: 1, 8621_udp-: 9, 11888_udp-: 5, 53_udp_dns-: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+6992_udp-
+TP:0, FP:37, FN:2
+FPs: 6881_udp-: 36, 6882_udp-: 1, 
+FNs: 3800_udp-: 2, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+80_tcp_http-itunesexe
+TP:0, FP:0, FN:237
+FPs: 
+FNs: 80_tcp_http-: 232, 80_tcp_http-firefoxexe: 2, 3128_tcp-system: 1, 3128_tcp-chromeexe: 1, 80_tcp_http-iexploreexe: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+8999_udp-
+TP:0, FP:0, FN:58
+FPs: 
+FNs: 6881_udp-: 40, 3800_udp-: 9, 51654_udp-: 2, 8621_udp-: 1, 11888_udp-: 4, 1024_udp-: 1, 53_udp_dns-: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+

@@ -1,0 +1,16 @@
+{
+  "RunningTime": "00:24:28.2142669",
+  "TestName": "Bayessian_PortBased_0.1_0.4_2_30",
+  "DateTime": "2017-05-28T18:52:50.6064309+02:00",
+  "DateTimeString": "2017-05-28-06-52-50-PM",
+  "Labels": null,
+  "MinFlows": 30,
+  "FeatureSelectionTreshold": 0.4,
+  "CrossValidationFolds": 2,
+  "TrainingToVerificationRation": 0.1,
+  "IsEpi": false,
+  "IsRandomForest": false,
+  "IsUseFullName": false,
+  "IsBayessian": true,
+  "BestParametersFilePath": "C:\\Users\\pluskal\\Netfox\\AppIdent\\2017-05-28-06-52-50-PM_Bayessian_PortBased_0.1_0.4_2_30_bestParameters.bin"
+}

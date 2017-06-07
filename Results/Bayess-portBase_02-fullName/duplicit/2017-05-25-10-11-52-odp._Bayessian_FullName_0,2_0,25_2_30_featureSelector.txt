@@ -1,0 +1,17 @@
+{
+  "SelectedFeatures": [
+    "AppIdent.Features.MinInterArrivalTimePacketsUpAndDownFlow, AppIdent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "AppIdent.Features.MinInterArrivalTimePacketsUpFlow, AppIdent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "AppIdent.Features.MaxSegmentSizeUp, AppIdent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "AppIdent.Features.ThirdQuartileInterArrivalTimeUp, AppIdent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "AppIdent.Features.NumberOfPacketsPerTimeDown, AppIdent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "AppIdent.Features.NumberOfPacketsPerTimeUp, AppIdent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "AppIdent.Features.PUSHPacketsDown, AppIdent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "AppIdent.Features.NumberOfBytesUpFlow, AppIdent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "AppIdent.Features.NumberOfBytesDownFlow, AppIdent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "AppIdent.Features.MinPacketLengthDownFlow, AppIdent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "AppIdent.Features.BytePairsReoccuringDownFlow, AppIdent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "AppIdent.Features.First3BytesEqualDownFlow, AppIdent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "AppIdent.Features.FirstBitPositionUpFlow, AppIdent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

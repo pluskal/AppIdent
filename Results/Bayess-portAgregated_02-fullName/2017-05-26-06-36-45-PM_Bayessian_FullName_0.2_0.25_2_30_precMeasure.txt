@@ -1,0 +1,801 @@
+udpllmnr
+TP:35690, FP:742, FN:8
+FPs: 43265udp: 5, 51654udp: 2, 5353udp: 111, udpdhcps: 48, udpdns: 104, udphttps: 5, udpnatpmp: 145, udpnetbios: 246, udponlinegames: 30, udprtp: 6, udpteamviewer: 40, 
+FNs: 51654udp: 8, 
+Precision: 0.979633289415898
+Recall: 0.999775897809401
+F-Measure: 0.989602107306253
+
+
+udpdns
+TP:34354, FP:212, FN:927
+FPs: 40003udp: 4, 40018udp: 1, 40020udp: 2, 40024udp: 1, 40029udp: 2, 40030udp: 3, 43265udp: 36, 47993udp: 33, 51654udp: 1, udphttps: 5, udpnetbios: 4, udpp2pbittorrent: 4, udpspotify: 1, udpstun: 115, 
+FNs: udpp2pbittorrent: 714, udphttps: 76, 51654udp: 13, 40030udp: 20, udpllmnr: 104, 
+Precision: 0.993866805531447
+Recall: 0.973725234545506
+F-Measure: 0.983692928830157
+
+
+tcphttp
+TP:11797, FP:7177, FN:200
+FPs: 12350tcpskypeexe: 1, tcpdnssystem: 2, tcphttpavgmfapxexe: 8, tcphttpchromeexe: 748, tcphttpfirefoxexe: 1124, tcphttpiexploreexe: 1776, tcphttpitunesexe: 201, tcphttponedriveexe: 61, tcphttpspotifyexe: 272, tcphttpsteamexe: 266, tcphttpsteamwebhelperexe: 355, tcphttpsystem: 303, tcphttpteamviewerserviceexe: 306, tcphttputorrentexe: 682, tcphttputorrentieexe: 265, tcpicslap: 419, tcpicslapsystem: 379, tcpteamviewer: 9, 
+FNs: tcphttpspotifyexe: 184, tcphttputorrentexe: 8, tcphttpsitunesexe: 3, tcphttpiexploreexe: 1, tcphttps: 4, 
+Precision: 0.621745546537367
+Recall: 0.983329165624739
+F-Measure: 0.761809434632398
+
+
+udpssdp
+TP:9608, FP:336, FN:170
+FPs: 3702udp: 143, 3800udp: 1, 50321udp: 6, 5353udp: 57, 8999udp: 1, 9875udp: 4, udpdhcps: 10, udpdhcpv6c: 10, udphttps: 2, udpnetbios: 16, udponlinegames: 8, udpp2pbittorrent: 15, udprtp: 63, 
+FNs: 51654udp: 170, 
+Precision: 0.966210780370072
+Recall: 0.982614031499284
+F-Measure: 0.974343372883075
+
+
+tcphttpsitunesexe
+TP:6373, FP:1445, FN:208
+FPs: 12350tcpskypeexe: 10, 45776tcputorrentexe: 1, tcphttp: 3, tcphttpchromeexe: 8, tcphttps: 1284, tcphttpschromeexe: 2, tcphttpsfirefoxexe: 9, tcphttpsiexploreexe: 6, tcphttpsonedriveexe: 3, tcphttpspotifyexe: 12, tcphttpsskypebrowserhostexe: 4, tcphttpsspotifyexe: 6, tcphttpssvchostexe: 24, tcphttpssystem: 37, tcphttpsteamwebhelperexe: 31, tcphttpsutorrentexe: 2, tcphttpsystem: 1, tcpjabbersslapsdaemonexe: 2, 
+FNs: tcphttpssystem: 203, tcphttps: 5, 
+Precision: 0.815170120235354
+Recall: 0.968393861115332
+F-Measure: 0.88520036113619
+
+
+tcphttpspotifyexe
+TP:4589, FP:665, FN:284
+FPs: tcphttp: 184, tcphttpfirefoxexe: 17, tcphttpiexploreexe: 6, tcphttpitunesexe: 1, tcphttpsfirefoxexe: 3, tcphttpsteamexe: 90, tcphttpsystem: 2, tcphttputorrentexe: 362, 
+FNs: tcphttp: 272, tcphttpsitunesexe: 12, 
+Precision: 0.873429767795965
+Recall: 0.941719679868664
+F-Measure: 0.906290115532734
+
+
+tcphttpssystem
+TP:4013, FP:2788, FN:143
+FPs: tcphttps: 228, tcphttpschromeexe: 724, tcphttpsfirefoxexe: 70, tcphttpsiexploreexe: 958, tcphttpsitunesexe: 203, tcphttpsonedriveexe: 19, tcphttpsskypebrowserhostexe: 6, tcphttpsskypeexe: 4, tcphttpsspotifyexe: 568, tcphttpssteamwebhelperexe: 1, tcphttpsutorrentexe: 7, 
+FNs: tcphttpsfirefoxexe: 98, tcphttpsitunesexe: 37, tcphttpsiexploreexe: 8, 
+Precision: 0.590060285252169
+Recall: 0.965591915303176
+F-Measure: 0.732499771835356
+
+
+udponlinegames
+TP:3758, FP:44, FN:107
+FPs: 40027udp: 1, udphttps: 1, udpteamviewer: 42, 
+FNs: udpssdp: 8, udpllmnr: 30, udpp2pbittorrent: 68, udphttps: 1, 
+Precision: 0.988427143608627
+Recall: 0.972315653298836
+F-Measure: 0.98030520412156
+
+
+tcphttps
+TP:2256, FP:1408, FN:1714
+FPs: 40029tcpskypeexe: 2, 4070tcpspotifyexe: 29, tcphttp: 4, tcphttpschromeexe: 14, tcphttpsfirefoxexe: 14, tcphttpsgoogledrivesyncexe: 1, tcphttpsiexploreexe: 8, tcphttpsitunesexe: 5, tcphttpsmsmpengexe: 22, tcphttpsonedriveexe: 704, tcphttpsskypeexe: 24, tcphttpsspotifyexe: 294, tcphttpssvchostexe: 189, tcphttpsthunderbirdexe: 4, tcphttpsutorrentexe: 29, tcpjabberpidginexe: 1, tcpjabbersslapsdaemonexe: 5, tcppop3tlssslthunderbirdexe: 6, tcpsmtptlssslthunderbirdexe: 2, tcpteamviewer: 30, tcpteamviewersystem: 3, tcpteamviewerteamviewerserviceexe: 18, 
+FNs: tcphttpsitunesexe: 1284, tcphttpssystem: 228, tcphttpsiexploreexe: 29, tcphttpsfirefoxexe: 36, tcphttpschromeexe: 134, tcphttpiexploreexe: 1, 51654udp: 2, 
+Precision: 0.615720524017467
+Recall: 0.568261964735516
+F-Measure: 0.591040083835473
+
+
+udpp2pbittorrent
+TP:1809, FP:1187, FN:19
+FPs: 1024udp: 5, 11000udp: 7, 11888udp: 8, 3702udp: 1, 3800udp: 35, 40003udp: 14, 40005udp: 1, 40018udp: 3, 40020udp: 17, 40024udp: 6, 40025udp: 1, 40027udp: 6, 40028udp: 4, 40029udp: 11, 40030udp: 1, 40036udp: 4, 43265udp: 3, 49001udp: 48, 50321udp: 105, 51654udp: 3, 6992udp: 2, 8621udp: 40, 8999udp: 56, udpdhcps: 1, udpdns: 714, udphttps: 7, udpnetbios: 10, udponlinegames: 68, udprtp: 6, 
+FNs: udpssdp: 15, udpdns: 4, 
+Precision: 0.603805073431242
+Recall: 0.989606126914661
+F-Measure: 0.75
+
+
+tcphttpsfirefoxexe
+TP:1668, FP:169, FN:98
+FPs: tcphttps: 36, tcphttpschromeexe: 26, tcphttpsspotifyexe: 2, tcphttpssteamexe: 1, tcphttpssteamwebhelperexe: 1, tcphttpssystem: 98, tcppop3tlssslthunderbirdexe: 5, 
+FNs: tcphttpssystem: 70, tcphttpsskypeexe: 1, tcphttpspotifyexe: 3, tcphttps: 14, tcphttpsitunesexe: 9, tcphttpsonedriveexe: 1, 
+Precision: 0.908002177463255
+Recall: 0.944507361268403
+F-Measure: 0.925895087427144
+
+
+udphttps
+TP:1371, FP:282, FN:20
+FPs: 11000udp: 20, 40018udp: 2, 40024udp: 1, 40027udp: 2, 40028udp: 1, 40029udp: 1, 40036udp: 1, 43265udp: 44, 47993udp: 22, 51654udp: 2, udpdns: 76, udponlinegames: 1, udpstun: 109, 
+FNs: udpp2pbittorrent: 7, udpdns: 5, udponlinegames: 1, udpllmnr: 5, udpssdp: 2, 
+Precision: 0.82940108892922
+Recall: 0.985621854780733
+F-Measure: 0.900788436268068
+
+
+tcphttpsskypeexe
+TP:1257, FP:3, FN:28
+FPs: 12350tcpskypeexe: 1, 4070tcpspotifyexe: 1, tcphttpsfirefoxexe: 1, 
+FNs: tcphttps: 24, tcphttpssystem: 4, 
+Precision: 0.997619047619048
+Recall: 0.978210116731517
+F-Measure: 0.987819253438114
+
+
+51654udp
+TP:1225, FP:235, FN:12
+FPs: 1024udp: 1, 3702udp: 1, 40020udp: 1, 40023udp: 1, 40024udp: 1, 43265udp: 8, 47993udp: 4, 8999udp: 1, tcphttps: 2, tcpjabbersslapsdaemonexe: 1, tcpsmtptlssslthunderbirdexe: 1, udpdhcpc: 22, udpdns: 13, udpllmnr: 8, udpssdp: 170, 
+FNs: udpp2pbittorrent: 3, udpdns: 1, udpnetbiosdgm: 4, udpllmnr: 2, udphttps: 2, 
+Precision: 0.839041095890411
+Recall: 0.990299110751819
+F-Measure: 0.908416759362254
+
+
+tcphttpsiexploreexe
+TP:856, FP:57, FN:972
+FPs: 4070tcpspotifyexe: 2, tcphttps: 29, tcphttpschromeexe: 1, tcphttpsgoogledrivesyncexe: 1, tcphttpsskypebrowserhostexe: 7, tcphttpssystem: 8, tcphttpsutorrentexe: 2, tcpjabbersslapsdaemonexe: 6, tcpteamviewerteamviewerserviceexe: 1, 
+FNs: tcphttpssystem: 958, tcphttps: 8, tcphttpsitunesexe: 6, 
+Precision: 0.937568455640745
+Recall: 0.468271334792123
+F-Measure: 0.624589565851879
+
+
+tcphttpschromeexe
+TP:694, FP:140, FN:767
+FPs: tcphttps: 134, tcphttpsspotifyexe: 6, 
+FNs: tcphttpssystem: 724, tcphttpsfirefoxexe: 26, tcphttps: 14, tcphttpsiexploreexe: 1, tcphttpsitunesexe: 2, 
+Precision: 0.832134292565947
+Recall: 0.47501711156742
+F-Measure: 0.60479302832244
+
+
+tcpicslap
+TP:413, FP:0, FN:419
+FPs: 
+FNs: tcphttp: 419, 
+Precision: 1
+Recall: 0.496394230769231
+F-Measure: 0.663453815261044
+
+
+udpnetbiosdgm
+TP:412, FP:10, FN:0
+FPs: 51654udp: 4, udpnatpmp: 6, 
+FNs: 
+Precision: 0.976303317535545
+Recall: 1
+F-Measure: 0.988009592326139
+
+
+udpdhcps
+TP:300, FP:0, FN:60
+FPs: 
+FNs: udpllmnr: 48, udpssdp: 10, udpdhcpc: 1, udpp2pbittorrent: 1, 
+Precision: 1
+Recall: 0.833333333333333
+F-Measure: 0.909090909090909
+
+
+udpspotify
+TP:118, FP:0, FN:1
+FPs: 
+FNs: udpdns: 1, 
+Precision: 1
+Recall: 0.991596638655462
+F-Measure: 0.9957805907173
+
+
+tcphttputorrentexe
+TP:70, FP:37, FN:1044
+FPs: 4070tcpspotifyexe: 2, tcphttp: 8, tcphttpiexploreexe: 4, tcpjabberpidginexe: 1, tcpsshwinscpexe: 22, 
+FNs: tcphttp: 682, tcphttpspotifyexe: 362, 
+Precision: 0.654205607476635
+Recall: 0.0628366247755835
+F-Measure: 0.114660114660115
+
+
+tcphttpiexploreexe
+TP:65, FP:10, FN:1786
+FPs: 12350tcpskypeexe: 1, 4070tcpspotifyexe: 1, tcpdnssystem: 1, tcphttp: 1, tcphttps: 1, tcphttputorrentieexe: 5, 
+FNs: tcphttp: 1776, tcphttputorrentexe: 4, tcphttpspotifyexe: 6, 
+Precision: 0.866666666666667
+Recall: 0.0351161534305781
+F-Measure: 0.0674974039460021
+
+
+tcpjabbersslapsdaemonexe
+TP:18, FP:0, FN:14
+FPs: 
+FNs: tcphttpsiexploreexe: 6, tcphttps: 5, tcphttpsitunesexe: 2, 51654udp: 1, 
+Precision: 1
+Recall: 0.5625
+F-Measure: 0.72
+
+
+udpdhcpc
+TP:14, FP:1, FN:22
+FPs: udpdhcps: 1, 
+FNs: 51654udp: 22, 
+Precision: 0.933333333333333
+Recall: 0.388888888888889
+F-Measure: 0.549019607843137
+
+
+tcphttpsonedriveexe
+TP:11, FP:9, FN:726
+FPs: 4070tcpspotifyexe: 1, tcphttpsfirefoxexe: 1, tcpteamviewersystem: 2, tcpteamviewerteamviewerserviceexe: 5, 
+FNs: tcphttps: 704, tcphttpsitunesexe: 3, tcphttpssystem: 19, 
+Precision: 0.55
+Recall: 0.0149253731343284
+F-Measure: 0.0290620871862616
+
+
+udpnetbios
+TP:8, FP:0, FN:276
+FPs: 
+FNs: udpp2pbittorrent: 10, udpllmnr: 246, udpssdp: 16, udpdns: 4, 
+Precision: 1
+Recall: 0.028169014084507
+F-Measure: 0.0547945205479452
+
+
+3702udp
+TP:5, FP:0, FN:145
+FPs: 
+FNs: udpssdp: 143, 51654udp: 1, udpp2pbittorrent: 1, 
+Precision: 1
+Recall: 0.0333333333333333
+F-Measure: 0.0645161290322581
+
+
+12350tcpskypeexe
+TP:2, FP:0, FN:13
+FPs: 
+FNs: tcphttpsitunesexe: 10, tcphttp: 1, tcphttpsskypeexe: 1, tcphttpiexploreexe: 1, 
+Precision: 1
+Recall: 0.133333333333333
+F-Measure: 0.235294117647059
+
+
+40029udp
+TP:1, FP:0, FN:14
+FPs: 
+FNs: udpdns: 2, udpp2pbittorrent: 11, udphttps: 1, 
+Precision: 1
+Recall: 0.0666666666666667
+F-Measure: 0.125
+
+
+1024udp
+TP:0, FP:0, FN:6
+FPs: 
+FNs: udpp2pbittorrent: 5, 51654udp: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+11000udp
+TP:0, FP:0, FN:27
+FPs: 
+FNs: udphttps: 20, udpp2pbittorrent: 7, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+11888udp
+TP:0, FP:0, FN:8
+FPs: 
+FNs: udpp2pbittorrent: 8, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+3800udp
+TP:0, FP:0, FN:36
+FPs: 
+FNs: udpp2pbittorrent: 35, udpssdp: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+40003udp
+TP:0, FP:0, FN:19
+FPs: 
+FNs: 40018udp: 1, udpp2pbittorrent: 14, udpdns: 4, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+40005udp
+TP:0, FP:0, FN:1
+FPs: 
+FNs: udpp2pbittorrent: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+40018udp
+TP:0, FP:1, FN:6
+FPs: 40003udp: 1, 
+FNs: udpp2pbittorrent: 3, udpdns: 1, udphttps: 2, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+40020udp
+TP:0, FP:0, FN:20
+FPs: 
+FNs: udpp2pbittorrent: 17, udpdns: 2, 51654udp: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+40023udp
+TP:0, FP:0, FN:1
+FPs: 
+FNs: 51654udp: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+40024udp
+TP:0, FP:0, FN:9
+FPs: 
+FNs: 51654udp: 1, udpp2pbittorrent: 6, udphttps: 1, udpdns: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+40025udp
+TP:0, FP:0, FN:1
+FPs: 
+FNs: udpp2pbittorrent: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+40027udp
+TP:0, FP:0, FN:9
+FPs: 
+FNs: udpp2pbittorrent: 6, udphttps: 2, udponlinegames: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+40028udp
+TP:0, FP:0, FN:5
+FPs: 
+FNs: udpp2pbittorrent: 4, udphttps: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+40029tcpskypeexe
+TP:0, FP:0, FN:2
+FPs: 
+FNs: tcphttps: 2, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+40030udp
+TP:0, FP:20, FN:4
+FPs: udpdns: 20, 
+FNs: udpdns: 3, udpp2pbittorrent: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+40036udp
+TP:0, FP:0, FN:5
+FPs: 
+FNs: udpp2pbittorrent: 4, udphttps: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+4070tcpspotifyexe
+TP:0, FP:0, FN:36
+FPs: 
+FNs: tcphttps: 29, tcphttputorrentexe: 2, tcphttpsskypeexe: 1, tcphttpsiexploreexe: 2, tcphttpsonedriveexe: 1, tcphttpiexploreexe: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+43265udp
+TP:0, FP:0, FN:96
+FPs: 
+FNs: udpp2pbittorrent: 3, 51654udp: 8, udphttps: 44, udpdns: 36, udpllmnr: 5, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+45776tcputorrentexe
+TP:0, FP:0, FN:1
+FPs: 
+FNs: tcphttpsitunesexe: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+47993udp
+TP:0, FP:0, FN:59
+FPs: 
+FNs: udphttps: 22, udpdns: 33, 51654udp: 4, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+49001udp
+TP:0, FP:0, FN:48
+FPs: 
+FNs: udpp2pbittorrent: 48, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+50321udp
+TP:0, FP:0, FN:111
+FPs: 
+FNs: udpp2pbittorrent: 105, udpssdp: 6, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+5353udp
+TP:0, FP:0, FN:168
+FPs: 
+FNs: udpssdp: 57, udpllmnr: 111, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+6992udp
+TP:0, FP:0, FN:2
+FPs: 
+FNs: udpp2pbittorrent: 2, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+8621udp
+TP:0, FP:0, FN:40
+FPs: 
+FNs: udpp2pbittorrent: 40, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+8999udp
+TP:0, FP:0, FN:58
+FPs: 
+FNs: udpp2pbittorrent: 56, 51654udp: 1, udpssdp: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+9875udp
+TP:0, FP:0, FN:4
+FPs: 
+FNs: udpssdp: 4, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcpdnssystem
+TP:0, FP:0, FN:3
+FPs: 
+FNs: tcphttpiexploreexe: 1, tcphttp: 2, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcphttpavgmfapxexe
+TP:0, FP:0, FN:8
+FPs: 
+FNs: tcphttp: 8, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcphttpchromeexe
+TP:0, FP:0, FN:756
+FPs: 
+FNs: tcphttp: 748, tcphttpsitunesexe: 8, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcphttpfirefoxexe
+TP:0, FP:0, FN:1141
+FPs: 
+FNs: tcphttp: 1124, tcphttpspotifyexe: 17, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcphttpitunesexe
+TP:0, FP:0, FN:202
+FPs: 
+FNs: tcphttp: 201, tcphttpspotifyexe: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcphttponedriveexe
+TP:0, FP:0, FN:61
+FPs: 
+FNs: tcphttp: 61, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcphttpsgoogledrivesyncexe
+TP:0, FP:0, FN:2
+FPs: 
+FNs: tcphttps: 1, tcphttpsiexploreexe: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcphttpsmsmpengexe
+TP:0, FP:0, FN:22
+FPs: 
+FNs: tcphttps: 22, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcphttpsskypebrowserhostexe
+TP:0, FP:0, FN:17
+FPs: 
+FNs: tcphttpsiexploreexe: 7, tcphttpssystem: 6, tcphttpsitunesexe: 4, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcphttpsspotifyexe
+TP:0, FP:0, FN:876
+FPs: 
+FNs: tcphttpssystem: 568, tcphttps: 294, tcphttpsitunesexe: 6, tcphttpsfirefoxexe: 2, tcphttpschromeexe: 6, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcphttpssteamexe
+TP:0, FP:0, FN:1
+FPs: 
+FNs: tcphttpsfirefoxexe: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcphttpssteamwebhelperexe
+TP:0, FP:0, FN:2
+FPs: 
+FNs: tcphttpssystem: 1, tcphttpsfirefoxexe: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcphttpssvchostexe
+TP:0, FP:0, FN:213
+FPs: 
+FNs: tcphttps: 189, tcphttpsitunesexe: 24, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcphttpsteamexe
+TP:0, FP:0, FN:356
+FPs: 
+FNs: tcphttp: 266, tcphttpspotifyexe: 90, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcphttpsteamwebhelperexe
+TP:0, FP:0, FN:386
+FPs: 
+FNs: tcphttp: 355, tcphttpsitunesexe: 31, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcphttpsthunderbirdexe
+TP:0, FP:0, FN:4
+FPs: 
+FNs: tcphttps: 4, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcphttpsutorrentexe
+TP:0, FP:0, FN:40
+FPs: 
+FNs: tcphttps: 29, tcphttpsiexploreexe: 2, tcphttpssystem: 7, tcphttpsitunesexe: 2, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcphttpsystem
+TP:0, FP:0, FN:306
+FPs: 
+FNs: tcphttp: 303, tcphttpspotifyexe: 2, tcphttpsitunesexe: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcphttpteamviewerserviceexe
+TP:0, FP:0, FN:306
+FPs: 
+FNs: tcphttp: 306, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcphttputorrentieexe
+TP:0, FP:0, FN:270
+FPs: 
+FNs: tcphttp: 265, tcphttpiexploreexe: 5, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcpicslapsystem
+TP:0, FP:0, FN:379
+FPs: 
+FNs: tcphttp: 379, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcpjabberpidginexe
+TP:0, FP:0, FN:2
+FPs: 
+FNs: tcphttps: 1, tcphttputorrentexe: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcppop3tlssslthunderbirdexe
+TP:0, FP:0, FN:11
+FPs: 
+FNs: tcphttpsfirefoxexe: 5, tcphttps: 6, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcpsmtptlssslthunderbirdexe
+TP:0, FP:0, FN:3
+FPs: 
+FNs: tcphttps: 2, 51654udp: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcpsshwinscpexe
+TP:0, FP:0, FN:22
+FPs: 
+FNs: tcphttputorrentexe: 22, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcpteamviewer
+TP:0, FP:0, FN:39
+FPs: 
+FNs: tcphttp: 9, tcphttps: 30, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcpteamviewersystem
+TP:0, FP:0, FN:5
+FPs: 
+FNs: tcphttps: 3, tcphttpsonedriveexe: 2, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+tcpteamviewerteamviewerserviceexe
+TP:0, FP:0, FN:24
+FPs: 
+FNs: tcphttps: 18, tcphttpsonedriveexe: 5, tcphttpsiexploreexe: 1, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+udpdhcpv6c
+TP:0, FP:0, FN:10
+FPs: 
+FNs: udpssdp: 10, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+udpnatpmp
+TP:0, FP:0, FN:151
+FPs: 
+FNs: udpllmnr: 145, udpnetbiosdgm: 6, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+udprtp
+TP:0, FP:0, FN:75
+FPs: 
+FNs: udpssdp: 63, udpp2pbittorrent: 6, udpllmnr: 6, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+udpstun
+TP:0, FP:0, FN:224
+FPs: 
+FNs: udpdns: 115, udphttps: 109, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+
+udpteamviewer
+TP:0, FP:0, FN:82
+FPs: 
+FNs: udponlinegames: 42, udpllmnr: 40, 
+Precision: 0
+Recall: 0
+F-Measure: 0
+
+

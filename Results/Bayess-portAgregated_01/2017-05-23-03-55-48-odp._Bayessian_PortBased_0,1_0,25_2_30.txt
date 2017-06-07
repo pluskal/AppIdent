@@ -1,0 +1,14 @@
+{
+  "TestName": "Bayessian_PortBased_0,1_0,25_2_30",
+  "DateTime": "2017-05-23T15:55:48.7101579+02:00",
+  "DateTimeString": "2017-05-23-03-55-48-odp.",
+  "Labels": null,
+  "MinFlows": 30,
+  "FeatureSelectionTreshold": 0.25,
+  "CrossValidationFolds": 2,
+  "TrainingToVerificationRation": 0.1,
+  "IsEpi": false,
+  "IsRandomForest": false,
+  "IsUseFullName": false,
+  "IsBayessian": true
+}

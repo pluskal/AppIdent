@@ -1,0 +1,16 @@
+{
+  "RunningTime": "00:00:00",
+  "TestName": "RandomForest_PortBased_0,2_0,6_2_30",
+  "DateTime": "2017-05-29T22:00:39.2639493+02:00",
+  "DateTimeString": "2017-05-29-10-00-39-odp.",
+  "Labels": null,
+  "MinFlows": 30,
+  "FeatureSelectionTreshold": 0.6,
+  "CrossValidationFolds": 2,
+  "TrainingToVerificationRation": 0.2,
+  "IsEpi": false,
+  "IsRandomForest": true,
+  "IsUseFullName": false,
+  "IsBayessian": false,
+  "BestParametersFilePath": "..\\data0_bestParameters_37_0.8_150.bin"
+}

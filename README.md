@@ -21,14 +21,20 @@ Enhance Statistical Protocol Identification, Bayesian network and Random forests
 ## Training to Verification Ratio 0.1
 * [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPA01.pdf)
 * [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPA01AppTags.pdf)
+* [Port base](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPB01.pdf)
+* [Port base AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPB01AppTags.pdf)
 
 ## Training to Verification Ratio 0.2
 * [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPA02.pdf)
 * [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPA02AppTags.pdf)
+* [Port base](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPB02.pdf)
+* [Port base AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPB02AppTags.pdf)
 
 ## Training to Verification Ratio 0.5
 * [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPA05.pdf)
 * [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPA05AppTags.pdf)
+* [Port base](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPB05.pdf)
+* [Port base AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/BayesPB05AppTags.pdf)
 
 # Enhance Statistical Protocol Identification - ESPI
 * [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/espiPA.pdf)
@@ -40,10 +46,14 @@ Enhance Statistical Protocol Identification, Bayesian network and Random forests
 ## Training to Verification Ratio 0.1
 * [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/randomForestsPA01.pdf)
 * [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/randomForestsPA01AppTags.pdf)
+* [Port base](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/randomForestsPB01.pdf)
+* [Port base AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/randomForestsPB01AppTags.pdf)
 
 ## Training to Verification Ratio 0.2
 * [Port agregated](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/randomForestsPA02.pdf)
 * [Port agregated AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/randomForestsPA02AppTags.pdf)
+* [Port base](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/randomForestsPB02.pdf)
+* [Port base AppTags](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/randomForestsPB02AppTags.pdf)
 
 # Binary data source
 * [Port base source](https://mega.nz/#!0BBGlSDI!CmEPJrchymnPRK3bMrKNojdnhgrZndVWlM-vrWjvLsg)

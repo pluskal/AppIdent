@@ -1,0 +1,15 @@
+{
+  "TestName": "Bayessian_PortBased_0,2_0,25_2_30",
+  "DateTime": "2017-05-25T20:21:50.8745648+02:00",
+  "DateTimeString": "2017-05-25-08-21-50-odp.",
+  "Labels": null,
+  "MinFlows": 30,
+  "FeatureSelectionTreshold": 0.25,
+  "CrossValidationFolds": 2,
+  "TrainingToVerificationRation": 0.2,
+  "IsEpi": false,
+  "IsRandomForest": false,
+  "IsUseFullName": false,
+  "IsBayessian": true,
+  "BestParametersFilePath": "C:\\Users\\root\\Netfox\\AppIdent\\2017-05-25-08-21-50-odp._Bayessian_PortBased_0,2_0,25_2_30_bestParameters.bin"
+}

@@ -1,0 +1,16 @@
+{
+  "RunningTime": "00:49:31.9478958",
+  "TestName": "Bayessian_FullName_0.1_0.5_2_30",
+  "DateTime": "2017-05-26T22:54:53.0612802+02:00",
+  "DateTimeString": "2017-05-26-10-54-53-PM",
+  "Labels": null,
+  "MinFlows": 30,
+  "FeatureSelectionTreshold": 0.5,
+  "CrossValidationFolds": 2,
+  "TrainingToVerificationRation": 0.1,
+  "IsEpi": false,
+  "IsRandomForest": false,
+  "IsUseFullName": true,
+  "IsBayessian": true,
+  "BestParametersFilePath": "C:\\Users\\pluskal\\Netfox\\AppIdent\\2017-05-26-10-54-53-PM_Bayessian_FullName_0.1_0.5_2_30_bestParameters.bin"
+}

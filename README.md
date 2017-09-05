@@ -58,4 +58,7 @@ Enhance Statistical Protocol Identification, Bayesian network and Random forests
 # Binary data source
 * [Port base source](https://mega.nz/#!0BBGlSDI!CmEPJrchymnPRK3bMrKNojdnhgrZndVWlM-vrWjvLsg)
 * [Port aggregate source](https://mega.nz/#!FchyCR4L!dM0pqmbX14tGqGUe8gTGiP0iKwGVXZaLbvsOdL201m4)
+
+# Annotated PCAP files
 * [All data sets binary and PCAP files](http://nes.fit.vutbr.cz/AppIdent/)
+* Data sets are in Microsoft Network Monitor 3.4 (mnm, *.cap) format where process info table is stored

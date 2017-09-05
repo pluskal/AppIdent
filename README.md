@@ -62,3 +62,6 @@ Enhance Statistical Protocol Identification, Bayesian network and Random forests
 # Annotated PCAP files
 * [All data sets binary and PCAP files](http://nes.fit.vutbr.cz/AppIdent/)
 * Data sets are in Microsoft Network Monitor 3.4 (mnm, *.cap) format where process info table is stored
+
+# Netfox Detective
+* [Data processing framework](https://github.com/nesfit/NetfoxDetective)

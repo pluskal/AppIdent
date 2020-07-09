@@ -1,6 +1,32 @@
 # AppIdent
 Enhance Statistical Protocol Identification, Bayesian network and Random forests classification of application protocols.
 
+# Build & Installation
+* Build in Visual Studio using
+```
+dotnet build AppIdent.sln
+```
+
+# Run
+* Application identification process (evaluation) can be run using `dotnet`
+```
+dotnet run AppIdentCli -- <options>
+```
+
+* Options:
+```
+-d --data-source  AppIdentDataSource serialized data source file path
+-f --random-forest Use random forest classification.
+-p --best-parameters BestParameters bin file.
+-b --bayesian Use bayesian classification.
+-e --epi Use EPI classification.
+-r --ratio Trainnig to verification ratio.
+-m --min-flows Minimum flows for training and classification.
+-s --feature-selection Feature corelation trashold <0-1>.
+-c --cross-validation-folds Cross validation folds (only RF)
+-n --use-full-name Use application protocol full name including application name.
+```
+
 # Basic Information
 * [Configuration of tests](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/testedCombinations.pdf)
 * [All features](https://github.com/pluskal/AppIdent/blob/gh-pages/Pages/allFeatures.pdf)
